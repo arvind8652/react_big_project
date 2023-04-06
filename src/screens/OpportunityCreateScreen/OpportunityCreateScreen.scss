@@ -1,0 +1,162 @@
+.opportunity-create-container {
+  padding: 0 2.5%;
+  width: 100%;
+  .opportunity-card-type {
+    margin-bottom: 20px;
+    background: #ffffff;
+    border: 1px solid #cbd6ff;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #222747;
+    font-size: 22px;
+  }
+  .quantity::-webkit-inner-spin-button,
+  .quantity::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .opp-radio-field {
+    height: 40px;
+    width: 134px;
+    //   text-align: center;
+    background: #f6f7fb;
+    border: 1px solid #cbd6ff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    //   padding: 2;
+    span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: Open Sans;
+      font-size: 18px;
+      text-align: center;
+      line-height: 25px;
+      color: #696a91;
+    }
+  }
+  .opp-radio-field.active {
+    span {
+      color: white;
+    }
+    background: #354081;
+    box-shadow: -2px 0px 6px rgba(53, 64, 129, 0.25);
+    border-radius: 4px;
+  }
+  .opportunity-filter-dropdown,
+  .ant-select-selector {
+    background-color: #f6f7fb;
+    border: 1px solid #cbd6ff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    // height: fit-content;
+    input {
+      background-color: #f6f7fb;
+    }
+  }
+  .opportunity-type-button {
+    color: #354081;
+    background: #f0f2fb;
+    border-radius: 4px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 15px;
+  }
+  .opportunity-type-button:hover {
+    color: white;
+    background: #354081;
+    border-radius: 8px;
+  }
+  .opportunity-input-field {
+    height: 40px;
+    background: #f6f7fb;
+    border-radius: 4px;
+    input {
+      background-color: #f6f7fb;
+    }
+  }
+  .opportunity-date-input {
+    input {
+      background-color: #f6f7fb;
+    }
+  }
+  .opportunity-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #696a91;
+  }
+  .opportunity-title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    color: #222747;
+  }
+  .opportunity-dragger {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 33px;
+    text-decoration-line: underline;
+
+    color: #354081;
+  }
+  .opportunity-header {
+    background-color: #f0f2fb;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    font-style: normal;
+    color: #354081;
+    font-size: 22px;
+    line-height: 22px;
+    padding: 20px 0;
+    .opportunity-title {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      top: 0%;
+    }
+
+    .opportunity-buttons {
+      justify-content: flex-end;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      padding: 0 2% 0;
+    }
+    .opportunity-cancel {
+      height: 40px;
+      width: 124px;
+      font-size: 16px;
+      background: #e5e5e5;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+    .opportunity-onSave {
+      height: 40px;
+      width: 124px;
+      font-size: 16px;
+      color: white;
+      background: #354081;
+      box-shadow: -2px 0px 6px rgba(53, 64, 129, 0.25);
+      border-radius: 5px;
+    }
+    .opportunity-add {
+      height: 40px;
+      width: 124px;
+      font-size: 16px;
+      color: white;
+      background: #354081;
+      box-shadow: -2px 0px 6px rgba(53, 64, 129, 0.25);
+      border-radius: 5px;
+    }
+  }
+}

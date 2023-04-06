@@ -1,0 +1,154 @@
+.task-create-container {
+  .parent-form-container {
+    .prospect-type-card-type,
+    .task-det-card-type {
+      margin-bottom: 20px;
+      background: #ffffff;
+      border: 1px solid #cbd6ff;
+      box-sizing: border-box;
+      border-radius: 8px;
+      color: #222747;
+      font-size: 22px;
+    }
+    .task-det-form,
+    .refType-form {
+      .name-input .ant-select-selection-item {
+        .ant-row {
+          .ant-col:first-child,
+          .ant-col:last-child {
+            display: none;
+          }
+        }
+      }
+      .quantity::-webkit-inner-spin-button,
+      .quantity::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      .task-radio-field {
+        height: 40px;
+        width: 134px;
+        //   text-align: center;
+        background: #f6f7fb;
+        border: 1px solid #cbd6ff;
+        box-sizing: border-box;
+        border-radius: 4px;
+        //   padding: 2;
+        span {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-family: Open Sans;
+          font-size: 18px;
+          text-align: center;
+          line-height: 25px;
+          color: #696a91;
+        }
+      }
+      .task-radio-field.active {
+        span {
+          color: white;
+        }
+        background: #354081;
+        box-shadow: -2px 0px 6px rgba(53, 64, 129, 0.25);
+        border-radius: 4px;
+      }
+      .task-filter-dropdown,
+      .ant-select-selector {
+        background-color: #f6f7fb;
+        border: 1px solid #cbd6ff;
+        box-sizing: border-box;
+        border-radius: 4px;
+        // height: fit-content;
+        input {
+          background-color: #f6f7fb;
+        }
+      }
+      .text-area-field {
+        resize: none;
+        background-color: #f6f7fb;
+        border: 1px solid #cbd6ff;
+        box-sizing: border-box;
+        border-radius: 4px;
+        // height: fit-content;
+        input {
+          background-color: #f6f7fb;
+        }
+      }
+      .task-type-button {
+        color: #354081;
+        background: #f0f2fb;
+        border-radius: 4px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-size: 15px;
+      }
+      .task-type-button:hover {
+        color: white;
+        background: #354081;
+        border-radius: 8px;
+      }
+      .task-input-field {
+        height: 40px;
+        background: #f6f7fb;
+        border-radius: 4px;
+        input {
+          background-color: #f6f7fb;
+        }
+      }
+
+      .task-date-input {
+        background: #f6f7fb;
+        border-radius: 4px;
+        input {
+          background-color: #f6f7fb;
+        }
+      }
+      .task-text {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: #696a91;
+        text-overflow: ellipsis;
+      }
+      // @media screen and (max-width: 1850px) and (min-width: 1250px) {
+      //   .opp-text {
+      //   font-size: 15px;
+      //   text-overflow: ellipsis;
+      //   }
+      // }
+      .check-box {
+        border: 1px solid #696a91;
+        box-sizing: border-box;
+        border-radius: 2px;
+      }
+      .task-title {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 33px;
+        color: #222747;
+      }
+    }
+  }
+  .ant-form-item-label
+      > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+      display: inline-block;
+      color: #000;
+      content: "" !important;
+    }
+    .ant-form-item-label
+      > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::after {
+      display: inline-block;
+      margin-left: 4px;
+      color: #ff4d4f;
+      font-size: 18px;
+      font-family: SimSun, sans-serif;
+      line-height: 1;
+      content: "*";
+    }
+}

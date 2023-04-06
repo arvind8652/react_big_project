@@ -1,0 +1,71 @@
+@import "../../styles/inc/bootstrap-variables";
+
+.opp-listing-card-container {
+  .record-card {
+    .stage-status {
+      font-size: 1.2vw;
+    }
+    .client-prospect-profile {
+      .name {
+        width: 100%;
+        font-family: Open Sans;
+        font-weight: 600;
+        font-size: 1vw;
+        line-height: 16px;
+        color: #222747;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .profile-tag {
+        font-size: 1vw;
+        line-height: 16px;
+      }
+    }
+    .profile-duedate-section {
+      margin: 5px 0 0 0;
+      .due-date {
+        font-family: Open Sans;
+        color: #222747;
+        font-size: 1vw;
+        line-height: 16px;
+        .date {
+          font-weight: 600;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+        .text {
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $screen-xl) {
+  .opp-listing-card-container {
+    .record-card {
+      .stage-status {
+        font-size: 24px;
+      }
+      .client-prospect-profile {
+        .name {
+          font-size: 20px;
+          line-height: 24px;
+        }
+        .profile-tag {
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+      .profile-duedate-section {
+        .due-date {
+          font-size: 19px;
+          line-height: 24px;
+          .date {
+            color: #222747;
+          }
+        }
+      }
+    }
+  }
+}

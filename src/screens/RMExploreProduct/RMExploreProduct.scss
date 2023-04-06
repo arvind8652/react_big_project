@@ -1,0 +1,139 @@
+$primary-color: #5d6dd1;
+$primary-dark: #354081;
+$secondary-color: rgba(105, 106, 145, 1);
+
+$fourteen: 14px;
+$eighteen: 18px;
+
+.explore-products-filters-panel {
+	width: 100%;
+	height: 72px;
+	display: flex;
+	align-items: center;
+	padding: 20px 24px;
+	background: #ffffff;
+	border-radius: 8px;
+	.dropdown-prefix {
+		position: absolute;
+		z-index: 9;
+		left: 30px;
+		top: 50%;
+		transform: translateY(-50%);
+		font-family: Open Sans;
+		font-size: 16px;
+		line-height: 22px;
+		color: #696a91;
+	}
+	.filter-sort-dropdown {
+		// margin: 0 16px;
+		box-sizing: border-box;
+		border-radius: 8px;
+		justify-content: space-between;
+		align-items: center;
+		text-align: left;
+		font-family: Open Sans;
+		font-size: 16px;
+		line-height: 22px;
+		color: #696a91;
+		width: 200px;
+		height: 44px;
+		span {
+			justify-content: space-between;
+			overflow: hidden;
+		}
+		.ant-select-selection-placeholder {
+			color: #696a91;
+		}
+	}
+	.filter {
+		.ant-select-selector {
+			border-radius: 8px;
+			.ant-select-selection-item {
+				padding: 0 0 0 46px;
+			}
+		}
+	}
+	.sort {
+		.ant-select-selector {
+			border-radius: 8px;
+			.ant-select-selection-item {
+				padding: 0 10px 0 0;
+			}
+		}
+	}
+	.filter-badge {
+		background: red;
+		width: auto;
+		height: auto;
+		margin: 0;
+		border-radius: 50%;
+		position: absolute;
+		top: -13px;
+		right: -8px;
+		padding: 5px;
+	}
+	.left {
+		margin: 0 auto 0 0;
+		// width: 160px;
+		display: flex;
+		justify-content: left;
+		.icon {
+			margin: 0 32px 0 0;
+			font-size: 20px;
+			color: #939dd4;
+			cursor: pointer;
+		}
+		.disabled-icon {
+			margin: 0 32px 0 0;
+			font-size: 20px;
+			color: #939dd4;
+			opacity: 0.5;
+			cursor: not-allowed;
+		}
+	}
+
+	.right {
+		display: flex;
+		justify-content: right !important;
+		.icon {
+			margin: 0 0 0 32px;
+			font-size: 20px;
+			color: $primary-dark;
+			cursor: pointer;
+		}
+		.disabled-icon {
+			margin: 0 0 0 32px;
+			font-size: 20px;
+			color: $primary-dark;
+			opacity: 0.5;
+			cursor: not-allowed;
+		}
+	}
+	.search {
+		// margin: 0 16px;
+		box-sizing: border-box;
+		border-radius: 8px;
+		justify-content: space-between;
+		align-items: center;
+		text-align: left;
+		font-family: Open Sans;
+		font-size: 16px;
+		line-height: 22px;
+		color: #696a91;
+		width: 313px;
+		height: 44px;
+		span {
+			justify-content: space-between;
+			overflow: hidden;
+		}
+		.ant-select-selection-placeholder {
+			color: #696a91;
+		}
+		.ant-select-selector {
+			border-radius: 8px;
+			.ant-select-selection-item {
+				padding: 0 10px 0 0;
+			}
+		}
+	}
+}

@@ -1,0 +1,391 @@
+@import './../../../src/styles/inc/bootstrap-variables.scss';
+// .prospectViewPageHeader {
+// 	// margin: 0px 15px 15px 15px;
+// 	// margin-left: 10px;
+// }
+.prospectViewBodyContent {
+	margin: 15px;
+}
+.prospectCircleImg {
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+}
+.prospectViewHeaderDetailIcon {
+	font-size: 0.875em;
+	color: white;
+	margin-right: 10px;
+}
+.prospectViewSocialMediaIcon {
+	font-size: 1em;
+}
+
+.prospectInitialsCircleImg {
+	width: 90%;
+	height: 115px;
+	background: #f0f2fb;
+	border-radius: 50%;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	color: rgb(207, 73, 73);
+}
+
+.prospectSourceInitialsCircleImg {
+	background: #f0f2fb;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	color: rgb(207, 73, 73);
+}
+
+.prospect-listing-actions-popover {
+	.ant-popover-content {
+		.ant-popover-inner {
+			background: #ffffff;
+			border: 1px solid #5d6dd1;
+			box-sizing: border-box;
+			box-shadow: 0px 4px 6px rgba(203, 214, 255, 0.25);
+			border-radius: 16px;
+
+			.ant-popover-inner-content {
+				width: 256px;
+
+				.row-action-option {
+					margin: 0 -16px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					height: 48px;
+					font-family: Open Sans;
+					font-size: 18px;
+					line-height: 25px;
+					color: #222747;
+					span {
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						width: 100%;
+						height: 48px;
+						cursor: pointer;
+					}
+					:hover {
+						// border-right: 1px solid #5d6dd1;
+						// box-sizing: border-box;
+						background-color: #e9edff;
+					}
+				}
+			}
+		}
+	}
+}
+.prospectDescriptionText {
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 0px;
+}
+.header-badge {
+	font-size: 13px;
+}
+// .prospectViewCardDetail {
+// 	margin-top: 15px;
+// 	margin-bottom: 15px;
+// 	width: 100%;
+// }
+
+.prospectViewTopBarIcons {
+	color: white;
+	margin-left: 15px;
+	// DO NOT ENABLE THIS - CAUSING ISSUE IN PROSPECT VIEW SCREEN
+	// width: 100px;
+	// height: 100px;
+	margin-top: 10px !important;
+	font-size: 0.875em;
+}
+
+.prospectViewTopBarIcons:hover {
+	cursor: pointer;
+}
+
+//Pagehead
+.page-header {
+	margin: 0px 15px 15px 15px;
+}
+.nameLabel {
+	font-weight: 600;
+	font-size: 18px;
+}
+.basicDetailLabel {
+	font-weight: 400;
+	font-style: normal;
+	font-size: 12px;
+}
+.page-header .header-img {
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+}
+
+.prospectCircleImg {
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+}
+
+.prospectsViewPageHeader {
+	margin: 0px 15px 15px 15px;
+}
+
+.prospectsViewBodyContent {
+	background-color: #f0f2fb;
+	// margin: 15px;
+}
+
+.page-header .header-opp-icons {
+	width: 35px;
+	height: 35px;
+	background: #626a9a;
+	color: #d9dfff;
+	display: flex;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-img {
+	border-radius: 50%;
+}
+
+//Details
+.prospect-details {
+	.ant-col {
+		padding: 10px;
+		// margin-bottom: 10px;
+	}
+}
+//modal
+.details-tab .ant-tabs-nav-wrap .ant-tabs-tab-active .ant-tabs-tab-btn,
+.details-tab .ant-tabs-nav-wrap .ant-tabs-tab:hover {
+	color: #354081;
+}
+
+.details-tab .ant-tabs-nav-wrap .ant-tabs-ink-bar {
+	background-color: #354081;
+}
+
+.update-stage-modal .ant-modal-content {
+	border-radius: 16px;
+}
+
+.update-stage-modal .ant-modal-content .ant-modal-close {
+	display: none !important;
+}
+.update-stage-modal .ant-modal-content .ant-radio-button-wrapper:hover {
+	color: #354081;
+}
+
+.update-stage-modal .lead-type-rb {
+	padding: 0 20px;
+	border-radius: 5px;
+}
+
+.update-stage-modal .lead-type-rb.ant-radio-button-wrapper-checked {
+	border-color: #354081;
+	border-right-color: #354081;
+	border-left-color: #354081;
+}
+.update-stage-modal
+	.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+	background-color: #fff;
+}
+
+.update-stage-modal .ant-form-item-label label {
+	color: #696a91;
+}
+
+.update-stage-modal
+	.ant-form-item-label
+	> label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+	content: '';
+}
+
+//relations
+.prospect-relation-details {
+	width: 100%;
+	height: 350px;
+	overflow: auto;
+	&::-webkit-scrollbar {
+		width: 4px;
+	}
+
+	/* Track */
+	&::-webkit-scrollbar-track {
+		background: #f1f1f1;
+	}
+
+	/* Handle */
+	&::-webkit-scrollbar-thumb {
+		background: rgba(0, 0, 0, 0.15);
+	}
+
+	/* Handle on hover */
+	&::-webkit-scrollbar-thumb:hover {
+		background: rgba(0, 0, 0, 0.25);
+	}
+}
+
+// Timeline
+.opportunities-timeline .ant-timeline .ant-timeline-item-content {
+	width: unset !important;
+}
+
+.opportunities-timeline .ant-timeline .ant-timeline-item-content {
+	width: unset !important;
+}
+
+// Attachments
+.attachments-table {
+	.ant-table-tbody > tr > td {
+		background: #f6f7fb;
+	}
+	.ant-table-thead > tr > th {
+		background: #fff;
+	}
+}
+
+//Interactions
+.interactions-table {
+	.ant-table-tbody > tr > td {
+		background: #f6f7fb;
+	}
+	.ant-table-thead > tr > th {
+		background: #fff;
+	}
+}
+
+//Opportunity
+.opportunity-table {
+	.ant-table-tbody > tr > td {
+		background: #f6f7fb;
+	}
+	.ant-table-thead > tr > th {
+		background: #fff;
+	}
+}
+
+//Tasks
+.tasks-table {
+	.ant-table-tbody > tr > td {
+		background: #f6f7fb;
+	}
+	.ant-table-thead > tr > th {
+		background: #fff;
+	}
+}
+
+//notes
+.notes-row-scroll::-webkit-scrollbar {
+	height: 5px;
+}
+
+/* Track */
+.notes-row-scroll::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+.notes-row-scroll::-webkit-scrollbar-thumb {
+	background: rgba(0, 0, 0, 0.15);
+}
+
+/* Handle on hover */
+.notes-row-scroll::-webkit-scrollbar-thumb:hover {
+	background: rgba(0, 0, 0, 0.25);
+}
+.modal-footer-pros {
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+	.text-only-btn-pros {
+	  margin: 0 10px 0 0;
+	  font-family: Open Sans;
+	  font-size: 1.7rem;
+	  line-height: 30px;
+	  text-align: center;
+	  color: #354081;
+	  opacity: 0.9;
+	}
+	.submit-btn-pros {
+	  width: 160px;
+	  height: 40px;
+	  background: #354081;
+	  border-radius: 8px;
+	  font-family: Open Sans;
+	  font-size: 1.5rem;
+	  line-height: 15px;
+	  text-align: center;
+	  color: #ffffff;
+	  opacity: 0.9;
+	}
+	:hover {
+	  opacity: 1;
+	}
+  }
+  
+
+@media screen and (min-width: $screen-xl) {
+	.nameLabel {
+		font-size: 28px;
+	}
+	.prospectDescriptionText {
+		font-weight: 400;
+		font-size: 18px;
+	}
+
+	.profileContainer {
+		width: 40%;
+	}
+
+	.imageContainer {
+		width: 25%;
+		height: auto;
+	}
+
+	.prospectInitialsCircleImg {
+		width: 75%;
+		height: 150px;
+		font-size: 48px;
+	}
+
+	.prospectViewTopBarIcons {
+		font-size: 1.33em;
+		margin: 0px 12px;
+	}
+
+	.prospectViewHeaderDetailIcon {
+		color: white;
+		font-size: 1.33em;
+		margin-right: 10px;
+	}
+
+	.prospectViewBodyDetailIcon {
+		font-size: 1.33em;
+	}
+
+	.prospectViewSocialMediaIcon {
+		font-size: 1.75em;
+	}
+	.basicDetailLabel {
+		font-weight: 400;
+		font-style: normal;
+		font-size: 18px;
+	}
+
+	.header-badge {
+		font-size: 20px;
+	}
+}

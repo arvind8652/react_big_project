@@ -1,0 +1,122 @@
+.resetPasswordForm {
+  text-align: left;
+
+  .formLogo {
+    margin: 0 0 96px 0;
+  }
+
+  .heading {
+    margin: 0 0 48px 0;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #354081;
+  }
+
+  .field {
+    width: 33.33333vw;
+    text-align: left;
+
+    .fieldLabel {
+      width: 100%;
+      font-family: "Open Sans";
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+    }
+    .fieldInput {
+      height: 56px;
+      background-color: #f6f7fb;
+      border: 1px solid #cbd6ff;
+      box-sizing: border-box;
+      border-radius: 4px;
+
+      .ant-input {
+        background-color: #f6f7fb;
+      }
+    }
+
+    .forgotPassword {
+      position: absolute;
+      top: 2px;
+      right: 0px;
+      color: #354081;
+    }
+  }
+
+  .submitBtn {
+    margin: 48px 0 0 0;
+    width: 196px;
+    height: 56px;
+    background-color: #354081;
+    border-radius: 4px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .smallText {
+    margin: 36px 0 0 0;
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 25px;
+    color: #696a91;
+  }
+}
+
+.resetSuccessScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  // justify-content: left;
+  width: 33.33333vw;
+
+  .logo {
+    //margin: 0 0 48px 0;
+    width:400px;
+    height: 50px;
+  }
+
+  .completionMessage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .text {
+      margin: 0 auto 24px 0;
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 45px;
+      color: #354081;
+    }
+
+    .smallText {
+      margin: 0 auto 48px 0;
+      text-align: left;
+      font-family: Open Sans;
+      font-size: 16px;
+      line-height: 22px;
+      color: #696a91;
+    }
+
+    .backToSignInBtn {
+      margin: 0 auto 0 0;
+      background-color: #354081;
+      border-radius: 4px;
+      width: 196px;
+      height: 56px;
+      font-family: Open Sans;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 33px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+}

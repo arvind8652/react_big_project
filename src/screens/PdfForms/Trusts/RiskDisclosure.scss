@@ -1,0 +1,9 @@
+@media print {
+	body {
+		-webkit-print-color-adjust: exact;
+		print-color-adjust: exact;
+	}
+	// @page {
+  //       size: 400mm 590mm !important;
+  //   }
+}

@@ -1,0 +1,108 @@
+.sevice-ticketoverview {
+	.main {
+		width: 95%;
+		padding: 0;
+		height: 200px;
+		.ticket_due {
+			font-size: 20px;
+		}
+		.ant-card-head {
+			border-bottom: none;
+			.ant-card-head-title {
+				padding: 0px;
+			}
+		}
+		.ant-card-body {
+			padding: 15px 0px 0px 10px;
+			display: flex;
+			flex-direction: row;
+			// flex-wrap: wrap;
+		}
+		.ant-card-head {
+			padding: 0px;
+		}
+		.ticket_header {
+			border-left-style: solid;
+			padding-left: 10px;
+			border-left-color: #2194ff;
+			.ant-card-head-title {
+				padding: 0px;
+				width: 100%;
+			}
+			.ticket_count {
+				font-size: 1rem;
+				font-weight: 400;
+			}
+		}
+	}
+}
+
+.dn-nc-mdd-graphs-ser {
+	margin: 0 0 24px 0;
+	width: 95%;
+}
+.ant-badge-status-dot {
+	height: 20px;
+	width: 20px;
+}
+
+.service-ticket-assignment,
+.service-ticket-section {
+	.ant-card-body {
+		padding: 0;
+		.left-border {
+			border-left-style: solid;
+			border-left-color: #2194ff;
+			padding-left: 10px;
+		}
+	}
+	.ticket-header {
+		font-size: 20px;
+		font-weight: 500;
+	}
+	.font-style {
+		font-size: 25px;
+		font-weight: 700;
+		color: black;
+	}
+	.border-right {
+		border-right-style: solid;
+		border-width: 1px;
+		border-color: rgb(233 229 229);
+		margin-right: 6px;
+		margin-top: 20px;
+	}
+}
+
+.queries-section,
+.request-section,
+.complaint-section {
+	.ant-card-body {
+		padding: 0;
+		.left-border {
+			border-left-style: solid;
+			padding-left: 10px;
+			border-left-color: #2194ff;
+		}
+	}
+	.dot-text-alignment {
+		display: flex;
+		flex-direction: inherit;
+		.dot-alignment {
+			display: flex;
+			align-items: center;
+		}
+		.text-alignment {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+	.ticket-header {
+		font-size: 20px;
+		font-weight: 700;
+	}
+	.text-style {
+		font-size: 17px;
+		font-weight: 700;
+	}
+}

@@ -1,0 +1,133 @@
+.setGoalBlock {
+	background: #ffffff;
+	border: 1px solid #cbd6ff;
+	border-radius: 8px;
+	// flex-direction: column-reverse,row-reverse;
+	width: 95%;
+	height: 90%;
+	padding: 10%;
+}
+.dropdownbtn {
+	flex-direction: row-reverse, column;
+	margin-top: 0;
+	margin-left: 60%;
+	width: 100%;
+	height: 100%;
+}
+.setGoalbtn {
+	flex-direction: row, column;
+	text-align: center;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.3em;
+	color: #222747;
+}
+
+.calculate-btn {
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+	width: 180px;
+	height: 40px;
+	background: #354081 !important;
+	border-radius: 8px;
+	font-family: Open Sans;
+	font-size: 1rem;
+	line-height: 15px;
+	text-align: center;
+	color: #ffffff !important;
+	opacity: 0.9;
+
+	:hover {
+		opacity: 1;
+		// color: #ffffff !important ;
+	}
+}
+.calculate-btn-second {
+	// position: absolute;
+	margin-left: 960px;
+	// margin-top: 40px;
+	position: static;
+	bottom: 40px;
+	right: 40px;
+	width: 180px;
+	height: 40px;
+	background: #354081 !important;
+	border-radius: 8px;
+	font-family: Open Sans;
+	font-size: 1rem;
+	line-height: 15px;
+	text-align: center;
+	color: #ffffff !important;
+	opacity: 0.9;
+
+	:hover {
+		opacity: 1;
+		// color: #ffffff !important ;
+	}
+}
+
+.style-input {
+	position: relative;
+	margin-left: 3rem !important;
+}
+.start-over-btn {
+	border: none;
+	font-weight: 600;
+	font-size: medium;
+	font-family: 'Open Sans';
+	font-size: 17px;
+	line-height: 33px;
+	color: #5d6dd1;
+	background: #f6f7fb;
+}
+.border-background {
+	background: #f6f7fb;
+	border-radius: 8px;
+	height: 6rem;
+	padding: 0.5rem;
+	width: 40rem;
+
+	position: relative;
+	margin-right: 1rem;
+}
+.styled-text {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
+	color: #696a91;
+}
+.spaced-below-margin {
+	margin-bottom: 25px;
+}
+
+.spaced-above-margin {
+	margin-top: 50px;
+	font-weight: bold;
+}
+.styled-button {
+	align-items: left;
+}
+.styled-font {
+	font-size: large;
+	font-weight: 400;
+	font-family: 'Open Sans';
+	line-height: 28px;
+}
+.revise-btn {
+	position: absolute;
+	bottom: 40px;
+	right: 225px;
+}
+.clr-bordered {
+	border-bottom: 1px solid #cbd6ff;
+	padding-bottom: 20px;
+}
+.update-no-margin {
+	margin-bottom: 0px !important;
+}
+.removeBorderCard {
+	border: none !important;
+}

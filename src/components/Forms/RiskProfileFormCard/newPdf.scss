@@ -1,0 +1,203 @@
+$gray-color: rgba(0, 0, 0, 0.468) !default;
+$black-color: black;
+$blue-color: #34bdeb;
+@media print {
+	body {
+		-webkit-print-color-adjust: exact;
+		print-color-adjust: exact;
+	}
+	@page {
+		// size: 400mm 590mm !important;
+		size: A4;
+	}
+}
+div.pagebr
+{
+    page-break-after:always;   
+}
+@mixin commonInputCust {
+	color: $gray-color;
+	padding: 0 0 0 5px;
+	width: 100%;
+}
+.para-1 {
+	padding: 0px 30px;
+}
+.para {
+	text-align: justify;
+	padding: 0px 10px;
+	font-family: 'Calibri Light';
+	color: $black-color;
+}
+@mixin thHead {
+	font-size: 13px;
+	font-weight: bold;
+	font-family: 'Arial Nova';
+	color: $black-color;
+}
+.th-1 {
+	@include thHead();
+	width: 10%;
+}
+.th-2 {
+	@include thHead();
+	width: 35%;
+}
+.th-3 {
+	@include thHead();
+	width: 55%;
+}
+.td-1 {
+	width: 10%;
+	height: 100%;
+	padding-left: 10px;
+	font-family: 'Calibri Light';
+	color: $black-color;
+}
+.td-2 {
+	width: 35%;
+	height: 100%;
+	padding-left: 10px;
+	font-family: 'Calibri Light';
+	color: $black-color;
+}
+.td-3 {
+	width: 55%;
+	height: 100%;
+	padding-left: 10px;
+	font-family: 'Calibri Light';
+	color: $black-color;
+}
+.list {
+	list-style-type: none;
+	padding-left: 10px;
+	font-family: 'Calibri Light';
+	color: $black-color;
+}
+.page-border {
+	border: 0.1px none $black-color;
+}
+.page-border-next {
+	border-right: 0.1px solid $black-color;
+	min-height: 20px;
+}
+.head-1 {
+	padding: 0 0 0 5px;
+	width: 100%;
+	font-weight: bold;
+	font-size: 11px;
+	color: black;
+}
+.added-styled-border{
+	border: 0.1px solid $black-color;
+	border-left: none;
+	border-top: none;
+	
+}
+.added-styled-border-table{
+	border: 0.1px solid $black-color;
+	// width: 100%;
+}
+.added-styled-border-scores{
+	border-top: 0.1px solid $black-color;
+	height: 24px;
+}
+.aln-txt{
+	text-align: center;
+	
+}
+.rt-aln{
+	text-align: right;
+	background-color: #dcddde;
+}
+.added-style{
+	background-color: #dcddde;
+	text-align: center;
+	border: none;
+}
+.styled-remarks{
+	border-bottom: 0.1px solid $black-color;
+	border-left: 0.1px solid $black-color;
+	border-right: 0.1px solid $black-color;
+	height: 90px;
+	font-weight: 800;
+	text-align: center;
+}
+.head-2 {
+	@include commonInputCust();
+	font-size: 30px;
+	font-weight: 500;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.head-3 {
+	@include commonInputCust();
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Arial';
+}
+
+.head4 {
+	@include commonInputCust();
+	font-size: 10px;
+	font-weight: 400;
+	font-family: 'Calibri Lighgt';
+	text-align: justify;
+}
+.head5 {
+	font-size: 16px;
+	font-weight: 500;
+	color: $black-color;
+}
+.header-7 {
+	@include commonInputCust();
+	margin-top: 52px;
+	font-weight: bold;
+}
+.t-head2 {
+	width: 40%;
+	height: 20px;
+	border: 0.1px solid $gray-color;
+}
+#customer-table {
+	border: 0.1px ridge !important;
+}
+@mixin signature{
+	border-bottom: 0.1px solid $black-color;
+	margin-left: 50px;
+}
+.line-Bottom {
+	@include signature();
+	padding-right: 550px;
+}
+.sign {
+	color: $gray-color;
+	margin: 150px;
+	font-size: 15px;
+	font-weight: 600;
+	width: 100%;
+}
+@mixin border {
+	border-bottom: 0.1px solid $black-color;
+	border-right: 0.1px solid $black-color;
+	border-left: 0.1px solid $black-color;
+}
+.list-border {
+	border:0.1px solid $black-color; ; 
+}
+
+	.page-break {  page-break-before: avoid;
+		margin-top: 50px
+	} 
+.list-header {
+	@include border();
+	background-color: $blue-color;
+}
+.hrTag {
+	width: 50%;
+	padding: 0px;
+	border: none;
+	height: 2px;
+	color: #333;
+	background-color: #333;
+}

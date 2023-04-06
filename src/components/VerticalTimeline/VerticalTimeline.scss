@@ -1,0 +1,35 @@
+.opportunityViewBodyDetailIcon {
+  font-size: 0.875em;
+}
+
+.verticalTimelineDetailText {
+  font-size: 16px;
+}
+
+.opportunities-timeline {
+  .detailText {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .descriptionText {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+.opportunities-timeline {
+  .detailText {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+  }
+  .descriptionText {
+    font-size: 18px;
+    font-weight: 400;
+    color: #696a91;
+  }
+}
+
+.opportunities-timeline .ant-timeline .ant-timeline-item-content {
+  width: unset !important;
+}

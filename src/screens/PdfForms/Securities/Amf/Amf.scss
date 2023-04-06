@@ -1,0 +1,100 @@
+$black-color: #000000 !default;
+
+@media print {
+// 	@page {
+// 		size: 300mm 500mm;
+// 	}
+}
+
+@mixin commonInput {
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid $black-color;
+	padding: 2px 5px;
+}
+@mixin commonInputFocus {
+	border-top: none;
+	border-bottom: 2px solid $black-color;
+	padding: 2px 5px;
+	outline: none;
+}
+
+.amf-page {
+	margin: 40px;
+	.nest-amf-page {
+		border: 4px solid $black-color;
+		border-bottom: none;
+		padding: 0 0 0 5px;
+		.logo-text {
+			color: #0096ff;
+			padding-top: 38px;
+			font-size: 21px;
+		}
+	}
+}
+.border-page {
+	border: 2px solid $black-color;
+	border-right: 4px solid $black-color;
+	border-left: 4px solid $black-color;
+}
+.checkbox-margin {
+	margin-left: 10px;
+}
+
+.head-Text {
+	color: $black-color;
+	font-size: 15px;
+	padding: 0 0 0 5px;
+	width: 100%;
+	font-weight: 500;
+}
+
+.unerline-text {
+	color: $black-color;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+input#fname {
+	@include commonInput();
+	width: 50%;
+	&:focus {
+		@include commonInputFocus();
+		width: 50%;
+	}
+}
+input#status {
+	@include commonInput();
+	width: 14%;
+	&:focus {
+		@include commonInputFocus();
+		width: 14%;
+	}
+}
+input#authorized {
+	@include commonInput();
+	width: 90%;
+	&:focus {
+		@include commonInputFocus();
+		width: 90%;
+	}
+}
+input#supply {
+	@include commonInput();
+	width: 70%;
+	padding: 0px;
+	&:focus {
+		@include commonInputFocus();
+		width: 70%;
+		padding: 0px;
+	}
+}
+
+#style-table {
+	width: 100%;
+}
+
+#style-table td,
+#style-table th {
+	border: none;
+}

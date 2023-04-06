@@ -1,0 +1,18 @@
+.attachment-card {
+    .filelist {
+        background-color: #f6f7fb;
+        border-radius: 12px;
+        .ant-list-item {
+            padding-inline: 12px;
+            li {
+            span {
+                color: #696a91;
+            }
+            }
+        }
+        .nofile {
+            padding: 12px;
+            color: #696a91;
+        }
+    }
+}

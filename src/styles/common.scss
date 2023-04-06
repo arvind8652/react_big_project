@@ -1,0 +1,36 @@
+@import './inc/bootstrap-variables.scss';
+
+.link {
+	font-family: Open Sans;
+	font-size: 1vw;
+	line-height: 2vw;
+	text-decoration-line: underline;
+	color: #222747;
+	z-index: 9;
+}
+
+.favourite-icon {
+	color: #48528d;
+	font-size: 2.5vw;
+	opacity: 0.9;
+}
+
+@media screen and (min-width: $screen-xl) {
+	.link {
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.favourite-icon {
+		font-size: 42px;
+	}
+	.favourite-icon.inactive:hover::before {
+		content: '\2605';
+		position: absolute;
+		top: 6px;
+	}
+}
+
+.disabled {
+	color: grey !important;
+	cursor: not-allowed;
+}

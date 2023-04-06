@@ -1,0 +1,30 @@
+.plot-attribute-selector {
+  display: flex;
+
+  // margin: 0 0 24px 0;
+  .option {
+    // width: 64px;
+    font-family: Open Sans;
+    font-size: 100%;
+    line-height: 25px;
+    color: #696a91;
+    text-align: center;
+    margin-right: 10px;
+  }
+  .option.active {
+    color: #5564c1;
+  }
+  .option.active::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border-bottom: 1px solid #5564c1;
+  }
+  .option.left {
+    border-right: 1px solid #696a91;
+  }
+  .option.right {
+    //   border-left: 1px solid #696a91;
+  }
+}

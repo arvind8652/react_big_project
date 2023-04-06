@@ -1,0 +1,89 @@
+.loginForm,
+.otpRequestForm {
+  text-align: left;
+
+  // .formLogo {
+  //   //margin: 0 0 96px 0;
+    
+  // }
+
+  .heading {
+    margin: 0 0 48px 0;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #354081;
+  }
+
+  .otpRequestResentOTP {
+    margin-left: 8px;
+    color: #354081;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+
+  .otpRequestResentOTP:hover {
+    cursor: pointer;
+  }
+
+  .field {
+    width: 33.33333vw;
+    text-align: left;
+
+    .fieldLabel {
+      width: 100%;
+      font-family: "Open Sans";
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+    }
+
+    .forgotPassword {
+      float: right;
+      color: #354081;
+    }
+
+    .fieldInput {
+      height: 56px;
+      background-color: #f6f7fb;
+      border: 1px solid #cbd6ff;
+      box-sizing: border-box;
+      border-radius: 4px;
+
+      .ant-input {
+        background-color: #f6f7fb;
+      }
+    }
+  }
+
+  .errorMsg {
+    margin: 20px 0 24px 0;
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 22px;
+    color: #931f2a;
+  }
+
+  .submitBtn {
+    margin: 48px 0 0 0;
+    width: 196px;
+    height: 56px;
+    background-color: #354081;
+    border-radius: 4px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .smallText {
+    margin: 36px 0 0 0;
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 22px;
+    color: #696a91;
+    max-width: 33.333333vw;
+  }
+}

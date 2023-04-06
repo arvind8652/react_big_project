@@ -1,0 +1,67 @@
+$gray-color: #5e5d5d !default;
+@media print {
+	body {
+		-webkit-print-color-adjust: exact;
+		print-color-adjust: exact;
+	}
+	// @page {
+  //       size: 400mm 590mm;
+  //   }
+}
+@mixin commonInputCust {
+	color: $gray-color;
+	padding: 0 0 0 5px;
+	width: 100%;
+}
+.main-page {
+	margin: 30px;
+	border: 1px solid $gray-color;
+	// border-style: double;
+	.main-page-next {
+		border: 2px solid $gray-color;
+		padding: 0 0 0 5px;
+	}
+}
+
+.page-border {
+	border: 2px solid $gray-color;
+}
+.head {
+	@include commonInputCust();
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 45px;
+}
+.head-1 {
+	@include commonInputCust();
+	font-weight: bold;
+	font-size: 10px;
+}
+.head-2 {
+	@include commonInputCust();
+	font-size: 30px;
+	font-weight: 500;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.head-3 {
+	@include commonInputCust();
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.head4 {
+	@include commonInputCust();
+	font-size: 18px;
+	font-weight: 500;
+}
+.head5 {
+	font-size: 16px;
+	font-weight: 500;
+	color: $gray-color;
+}
+.line-Bottom {
+	padding-right: 300px;
+	border-bottom: 2px solid black;
+	width: 20px;
+}

@@ -1,0 +1,25 @@
+.plot-attribute-selector {
+	display: flex;
+
+	// margin: 0 0 24px 0;
+	.buttonlink {
+		// width: 64px;
+		font-family: Open Sans;
+		font-size: 100%;
+		line-height: 25px;
+		color: #354081;
+		background-color: #f0f2fb;
+		text-align: center;
+		margin-right: 70px;
+	}
+	.buttonlink.active {
+		background-color: #5d6dd1;
+		color: white;
+	}
+	// .buttonlink.left {
+	//   border-right: 1px solid #696a91;
+	// }
+	// .buttonlink.right {
+	// 	//   border-left: 1px solid #696a91;
+	// }
+}

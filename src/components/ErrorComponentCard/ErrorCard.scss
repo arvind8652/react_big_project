@@ -1,0 +1,23 @@
+.error-card-screen-horizontal {
+  justify-content: center;
+  display: flex;
+  .tick {
+  }
+  .error-text-body {
+    margin-top: 5%;
+    width: 22rem;
+    .text {
+      color: #354081;
+      font-weight: bold;
+      font-size: 30px;
+    }
+    .small-text {
+      color: #696a91;
+      margin-top: 10%;
+    }
+  }
+}
+
+.error-card-screen {
+  text-align: center;
+}

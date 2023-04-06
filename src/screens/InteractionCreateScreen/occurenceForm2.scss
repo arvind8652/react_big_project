@@ -1,0 +1,25 @@
+.addButtonAlign {
+	margin-right: 30px;
+}
+
+// .interaction-text{
+//     padding-bottom: 12px;
+// }
+.timeManage {
+	padding-top: 2px;
+}
+// .ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled){
+//     color: #ffffff;
+//     background-color: #354081;
+//     border-color: #354081;
+// }
+.ant-radio-button-wrapper-disabled:first-child {
+	color: #ffffff;
+	background-color: #354081;
+	border-color: #354081;
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+	color: #ffffff;
+	background-color: #354081;
+	border-color: #354081;
+}

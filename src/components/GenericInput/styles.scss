@@ -1,0 +1,24 @@
+.numbersInput {
+	width: 100%;
+}
+
+.ant-select-selector {
+	background-color: #f6f7fb !important;
+	border: 1px solid #cbd6ff !important;
+}
+
+
+
+
+// .ant-input[disabled], .ant-picker-input > input[disabled], .ant-input-number-disabled .ant-input-number-input{
+	.ant-input[disabled], .ant-picker-input > input[disabled], .ant-input-number-disabled, .ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector{
+	color: black !important;
+	// font-weight: bold !important;
+}
+// 	.ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+// 	color: black !important;
+// }
+
+// input[disabled]:not(.ant-select-selection-search-input), textarea, .ant-picker, .ant-select, .ant-select-selector, .ant-radio-button-wrapper, .ant-upload, .ant-input-affix-wrapper {
+// 	background: black !important	
+// }

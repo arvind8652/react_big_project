@@ -1,0 +1,21 @@
+.modal-container {
+  .ant-modal-content {
+    border-radius: 20px;
+    .ant-modal-body {
+      padding: 35px;
+    }
+  }
+
+  .modal-title-container {
+    margin-bottom: 2em;
+    .modal-title {
+      color: #354081;
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 35px;
+    }
+    .modal-close-btn {
+      padding: 4px 0px;
+    }
+  }
+}

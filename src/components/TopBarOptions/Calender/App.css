@@ -1,0 +1,72 @@
+.time{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+  font-size: 48px;
+    line-height: 65px;
+    color: #5D6DD1;
+    margin-bottom: 2px;
+  }
+  .day{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    color: #5D6DD1;
+    
+  }
+  .item-heading{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #354081;
+    
+  }
+  .item{
+    font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #354081;
+  
+  }
+  .badge-today{
+    font-family: Font Awesome 5 Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #FFFFFF;
+   background: #354081;
+    border-radius: 4px;
+   padding: 5px;
+   margin-bottom: 5px;
+  }
+  
+  .badge-tomorrow{
+    font-family: Font Awesome 5 Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #696A91;
+  background: #F0F2FB;
+  border-radius: 4px;
+  padding: 5px;
+  margin-bottom: 5px;
+  }
+  
+  .stopWatch{
+    font-family: Font Awesome 5 Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #354081;
+  }

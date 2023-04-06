@@ -1,0 +1,255 @@
+  .order-book-card-content{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #696A91; 
+  }
+  .shoppingCartOutlined-icon{
+    display: start;
+    justify-content: start;
+    font-family: Font Awesome 5 Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    color: #5D6DD1;
+    margin-right: 15px;
+  }
+  .tagOutlined-icon {
+      display: start;
+      justify-content: start;
+      transform: scaleX(-1);  
+      font-family: Font Awesome 5 Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 36px;
+      color: #5D6DD1;
+      margin-right: 15px;
+   }
+   .swapOutlined-icon{
+    display: start;
+    justify-content: start;
+    font-family: Font Awesome 5 Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    color: #5D6DD1;
+    margin-right: 15px;
+   }
+  // .card{
+  //   display: flex;
+  // }
+  .card-first-style{
+    width: 60%;
+    margin-bottom: 15px;
+    background: #FFFFFF;
+    border: 1px solid #CBD6FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  .card-second-style{
+    width: 40%;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background-color: #3D59AB;
+    color: white;
+    border-color: #838EDE;
+    border-radius: 10px;
+  }
+  .card-item{
+    margin-bottom: 0;
+    margin-left: 10; 
+    color: #5D6DD1; 
+    font-family: Open Sans;
+    font-style: normal; 
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+  }
+  .card-item1{
+    margin-bottom:0;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+  }
+  .card-content{
+    margin-left: 10; 
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #898EA9;
+  }
+  .card-content1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
+  .card-row{
+    justify-content: space-around;
+  }
+ .card-second-content{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-left: 50px;
+  }
+  .card-second-content1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-right:45px;
+  }
+
+  .table-striped-rows thead th{
+    color: #5D6DD1;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .table-striped-rows{
+      display: flex;
+  }
+  .bg{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #222747;
+  }
+  .Banco-De-Oro{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #222747;
+    margin-bottom: 2px;
+  }
+  .starfilled{
+    color: #48528D;
+   }
+   .starOutlined{
+    color: #48528D;
+   }
+   .infoCircleOutlined{
+    font-family: Font Awesome 5 Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #5D6DD1;
+   }
+ .equity-btn{
+    background-color:#ededfa;
+    border-radius: 15px;
+    border:none;
+    margin-right:5px;
+    padding-left:15px;
+    padding-right:15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color:#696A91;
+  }
+  .stocks-btn{
+    background-color: #ededfa;
+    border-radius: 15px;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color:#696A91;
+  }
+  .buy-btn{
+    margin-bottom: 2px;
+    background-color: #ededfa;
+    border-radius: 15px;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px; 
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color:#696A91;    
+  }
+  .placed-btn{
+    background-color: #ededfa;
+    border-radius: 15px;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color:#696A91;
+  }
+  .advisory-btn{
+    background-color: #ededfa;
+    border-radius: 15px;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color:#696A91;
+  }
+  .table-content{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #696A91;
+  }
+  .table-content1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #696A91;
+  }
+  .Retirement-Portfo{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 2px;
+  }

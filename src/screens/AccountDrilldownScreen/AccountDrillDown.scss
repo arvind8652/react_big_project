@@ -1,0 +1,26 @@
+.select2{
+width: 300px;
+font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-left: -12px;
+.ant-select-selector{
+    background: #354081 !important;
+    outline:none !important;
+    border: none !important;
+    :focus{
+        background: #354081 !important;
+        outline:none !important;
+        border: none !important;
+    }
+      
+}
+.ant-select-arrow{
+    color: white !important;
+font-weight: 500 !important;
+// margin-right: 30px !important;
+}
+}

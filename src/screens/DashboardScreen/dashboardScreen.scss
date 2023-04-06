@@ -1,0 +1,56 @@
+.content {
+  position: absolute;
+  top: 56px;
+  height: calc(100% - 56px);
+  width: calc(100% - 80px);
+  background-color: #f0f2fb;
+  transition-duration: 0.3s;
+  overflow: scroll;
+}
+.topBarLogo {
+  margin: 10px;
+  height: 48px;
+  width: 133.33px;
+}
+.topBarShortLogo {
+  margin: 10px;
+  height: 48px;
+  width: 52px;
+}
+.topBarLogo:hover {
+  cursor: pointer;
+}
+.topBarShortLogo:hover {
+  cursor: pointer;
+}
+
+.main-dashboard-screen ::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.main-dashboard-screen ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.main-dashboard-screen ::-webkit-scrollbar-thumb {
+  background: rgb(134, 132, 132);
+}
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}

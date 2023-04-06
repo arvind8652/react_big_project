@@ -1,0 +1,132 @@
+$primary-color: #5d6dd1;
+$primary-dark: #354081;
+$secondary-color: rgba(105, 106, 145, 1);
+
+$fourteen: 14px;
+$eighteen: 18px;
+
+.exploreProductflexDiv {
+	display: flex;
+
+	& > .flexLeftItem {
+		color: $secondary-color !important;
+		padding-right: 5px;
+		font-size: $fourteen;
+		//   margin-top: 5px;
+
+		&.borderRight {
+			border-right: 1px solid $secondary-color;
+		}
+
+		&.considerationAmount {
+			font-size: 18px;
+		}
+	}
+
+	& > .flexRightIcon {
+		padding-left: 5px;
+
+		.ant-rate-star.ant-rate-star-zero {
+			margin-right: 1px !important;
+		}
+	}
+}
+
+// Popover
+.exploreProductPopOver {
+	.ant-popover-content {
+		.ant-popover-inner {
+			background: #ffffff;
+			border: 1px solid #5d6dd1;
+			box-sizing: border-box;
+			box-shadow: 0px 4px 6px rgba(203, 214, 255, 0.25);
+			border-radius: 16px;
+
+			.ant-popover-inner-content {
+				width: 256px;
+
+				.row-action-option {
+					margin: 0 -16px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					height: 48px;
+					font-family: Open Sans;
+					font-size: 18px;
+					line-height: 25px;
+					color: #222747;
+					span {
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						width: 100%;
+						height: 48px;
+						cursor: pointer;
+					}
+					:hover {
+						// border-right: 1px solid #5d6dd1;
+						// box-sizing: border-box;
+						background-color: #e9edff;
+					}
+				}
+			}
+		}
+	}
+}
+
+// filter buttons
+.box {
+	border-radius: 8px;
+	font-size: 12px;
+	font-family: Open Sans;
+	padding: 8px 12px;
+	margin-right: 24px;
+	margin: 4px;
+	width: 130px;
+	cursor: pointer;
+}
+
+.box:hover {
+	color: #ffffff;
+	background-color: #5d6dd1;
+}
+
+.unSelectedBox {
+	color: #ffffff;
+	background-color: #5d6dd1;
+}
+
+.selectedBox {
+	color: #5d6dd1;
+	background-color: #ffffff;
+}
+.eachTag {
+	font-size: 0.9rem;
+	border-radius: 16px;
+	padding: 40px 40px;
+	margin-bottom: 5px;
+	background-color: #696a91;
+	color: white;
+	max-width: 15em;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+
+	&:hover {
+		white-space: normal;
+		text-overflow: unset;
+	}
+}
+
+.securityName {
+	margin-bottom: 5px;
+	max-width: 12em;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+
+	&:hover {
+		white-space: normal;
+		text-overflow: unset;
+	}
+}

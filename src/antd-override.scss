@@ -1,0 +1,310 @@
+.ant-layout-header {
+  padding: 0px;
+  background-color: white;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #5d6dd1;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/* Top-bar menu icons */
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected {
+  border-bottom: transparent;
+}
+
+.ant-menu {
+  font-size: 20px;
+}
+
+.ant-layout-header {
+  height: 72px;
+}
+
+.ant-menu .ant-badge {
+  font-size: 20px;
+}
+
+.ant-badge-dot {
+  top: 15px;
+}
+/* Top-bar menu icons end */
+
+.ant-menu-sub.ant-menu-inline {
+  background-color: #4754a5;
+  color: #ffffff;
+}
+.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+  height: 62px;
+}
+.ant-menu-sub.ant-menu-inline > .ant-menu-item {
+  height: 62px;
+  line-height: 62px;
+}
+.ant-menu.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title {
+  height: 64px;
+  padding: 0 calc(10% - 16px / 2);
+}
+.ant-menu-submenu > .ant-menu-submenu-inline > .ant-menu-submenu-active {
+  color: #ffffff;
+}
+.ant-menu-inline .ant-menu-submenu :hover {
+  color: #ffffff;
+}
+.ant-menu-submenu-arrow {
+  color: #ffffff;
+}
+.ant-menu-submenu-arrow :hover {
+  color: #ffffff;
+}
+.ant-menu-submenu-selected {
+  color: #ffffff;
+  // background-color: #5564c1;
+  //   border-left: 2px solid #ffffff;
+}
+.ant-menu-vertical .ant-menu-submenu-selected {
+  color: #ffffff;
+  background-color: #5564c1;
+}
+
+.ant-menu-horizontal {
+  border-bottom: transparent;
+}
+
+//Radio Buttons
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  color: #ffffff;
+  background-color: #354081;
+  border-color: #354081;
+}
+
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  color: #ffffff;
+  background-color: #354081;
+  border-color: #354081;
+}
+
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+  color: #ffffff;
+  background-color: #354081;
+  border-color: #354081;
+}
+
+.ant-radio-button-wrapper:hover {
+  color: #696a91;
+}
+
+.ant-radio-button-wrapper {
+  background: #f6f7fb;
+  border: 1px solid #cbd6ff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #696a91;
+}
+
+// .ant-radio-group {
+//   width: 270px;
+//   text-align: center;
+// }
+
+// account create screen
+.ant-space-vertical {
+  width: 100%;
+  margin-left: 10px;
+}
+.ant-menu-item-title {
+  margin: 0;
+}
+.ant-menu-submenu-active,
+.ant-menu-submenu-title:hover {
+  color: white;
+}
+.ant-input:hover,
+.ant-select:not(.ant-select-disabled):hover .ant-select-selector,
+.ant-picker:hover,
+.ant-picker-focused {
+  border-color: #5d6dd1;
+}
+.ant-upload.ant-upload-drag:not(.ant-upload-disabled):hover,
+.ant-input-affix-wrapper:hover {
+  border-color: #5d6dd1;
+}
+.ant-menu-item-selected {
+  // background-color: #5d6dd1;
+}
+.ant-menu-submenu > .ant-menu {
+  // background-color: #4754a5;
+}
+.ant-menu-submenu-arrow {
+  color: white;
+}
+.ant-menu-submenu-open {
+  // background-color: #4754a5;
+}
+.ant-menu-inline .ant-menu-item,
+.ant-menu-inline .ant-menu-submenu-title {
+  width: 100%;
+}
+.ant-row:last-child {
+  .ant-col {
+    .ant-form-item:last-child {
+      margin: 0;
+    }
+  }
+}
+.ant-form-item {
+  .ant-picker {
+    width: 100%;
+  }
+}
+// .ant-card-body {
+//   .ant-col {
+//     padding-right: 14px;
+//   }
+// }
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  content: none;
+}
+.ant-form-item-label > label:not(.ant-form-item-required)::before {
+  content: "";
+}
+input:not(.ant-select-selection-search-input),
+textarea,
+.ant-picker,
+.ant-select,
+.ant-select-selector,
+.ant-radio-button-wrapper,
+.ant-upload,
+.ant-input-affix-wrapper {
+  background: #f6f7fb;
+  border-color: #cbd6ff;
+  border-radius: 5px;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #5d6dd1;
+  border-color: #5d6dd1;
+}
+.ant-checkbox-checked .ant-checkbox:hover {
+  .ant-checkbox-inner {
+    border-color: #5d6dd1;
+  }
+}
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  display: inline-block;
+  color: #000;
+  content: "";
+}
+.no-card-body {
+  .ant-card-body {
+    display: none;
+  }
+}
+
+// Modal Styling
+.ant-modal-header {
+  border-radius: 16px 16px 0 0;
+}
+
+.ant-modal-content {
+  border-radius: 16px;
+}
+
+.ant-btn .ant-btn-primary {
+  background-color: red;
+  border: red;
+}
+
+// Ant Page Header
+.ant-page-header {
+  padding: 2px 15px 40px;
+}
+
+.genericTable-listing-actions-popover {
+  .ant-popover-content {
+    .ant-popover-inner {
+      background: #ffffff;
+      border: 1px solid #5d6dd1;
+      box-sizing: border-box;
+      box-shadow: 0px 4px 6px rgba(203, 214, 255, 0.25);
+      border-radius: 16px;
+
+      .ant-popover-inner-content {
+        width: 256px;
+
+        .row-action-option {
+          margin: 0 -16px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 48px;
+          font-family: Open Sans;
+          font-size: 18px;
+          line-height: 25px;
+          color: #222747;
+          span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 48px;
+            cursor: pointer;
+          }
+          :hover {
+            // border-right: 1px solid #5d6dd1;
+            // box-sizing: border-box;
+            background-color: #e9edff;
+          }
+        }
+      }
+    }
+  }
+}
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next,
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-prev:focus,
+.ant-carousel .slick-next:focus {
+  font-size: inherit;
+  color: currentColor !important;
+}
+
+.ant-carousel .slick-prev::before {
+  color: currentColor !important;
+}
+
+.slick-arrow.slick-prev {
+  font-size: 20px !important;
+}
+
+.ant-carousel .slick-next::before {
+  color: currentColor !important;
+}
+
+.slick-arrow.slick-next {
+  font-size: 20px !important;
+}
+
+.ant-modal-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #354081;
+}
+
+.newFormLogo {
+  height: 50px;
+  width: 400px;
+}
+
+.profileTopBannerArrow {
+  color: white;
+  margin-left: 15px;
+  width: 100px;
+  height: 30px;
+  font-size: 1.5em;
+}

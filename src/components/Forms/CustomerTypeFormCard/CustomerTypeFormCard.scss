@@ -1,0 +1,89 @@
+.customer-type-rb{
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius:4px;    
+
+}
+// .customer-type-rb.radio-button-wrapper-disabled{
+//     background-color: #354081 !important;
+//     color: #354081 !important;
+//     border: none;
+
+
+// }
+.opp-radio-field {
+    height: 40px;
+    width: 134px;
+    //   text-align: center;
+    // background: #f6f7fb;
+    // background: #354081 !important;
+    border: 1px solid #cbd6ff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    //   padding: 2;
+    span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: Open Sans;
+      font-size: 18px;
+      text-align: center;
+      line-height: 25px;
+      color: #696a91;
+    }
+  }
+  .opp-radio-field.active {
+    span {
+      color: white;
+    // background-color: #354081 !important;
+
+    }
+    background-color: #354081 !important;
+    box-shadow: -2px 0px 6px rgba(53, 64, 129, 0.25);
+    border-radius: 4px;
+  }
+// .customer-type-rb.active{
+//     // color: white;
+//     // background:  #354081;
+//     span {
+//         color: white;
+//       }
+//       background: #354081;
+//       box-shadow: -2px 0px 6px rgba(53, 64, 129, 0.25);
+//       border-radius: 4px;
+
+// }
+
+// .ant-radio-button-wrapper-disabled.ant-radio-button-wrapper-checked{
+//     background-color: #354081;
+// }
+
+// .customer-type-rb.active{
+//     background-color: #354081 !important;
+//      color: #354081 !important;
+//       border: none;
+
+// }
+
+
+.ant-radio-group-outline :first-child.ant-radio-button-wrapper-checked{
+    margin-right:-2px;
+}
+.ant-radio-group-outline :last-child.ant-radio-button-wrapper-checked{
+    margin-left:-2px;
+    // background-color: #354081 !important;
+}
+.ant-radio-group-outline :last-child.ant-radio-button-wrapper-checked::before{
+    background-color: unset;
+    // background-color: #354081;
+}
+
+// .ant-radio-button-checked:active(.ant-radio-button-wrapper-disabled){
+
+//     background-color: #354081 !important;
+//     // color: #354081 !important;
+//     border: none;
+
+//    }
+

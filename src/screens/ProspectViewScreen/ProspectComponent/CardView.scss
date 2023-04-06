@@ -1,0 +1,68 @@
+@import "./../../../../src/styles/inc/bootstrap-variables.scss";
+.prospectViewTable{
+    .ant-table-cell {
+      font-size: 16px;
+    }
+  
+}
+.opportunity-table{
+  .ant-table-cell{
+    font-size: 16px;
+  }
+}
+.interactions-table{
+  .ant-table-cell{
+    font-size: 16px;
+  }
+}
+.tasks-table{
+  .ant-table-cell{
+    font-size: 16px;
+  }
+}
+.prospectDescriptionText {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: $screen-xl) {
+    
+  .prospectDescriptionText {
+    font-weight: 400;
+    font-size: 18px;
+  }
+    .prospectCardDetail .ant-card-head-title {
+      font-size: 28px;
+    }
+    .tasks-table  .ant-card-head-title{
+      font-size:28px;
+    }
+    .opportunity-table .ant-card-head-title{
+      font-size: 28px;
+    }
+    .interactions-table .ant-card-head-title{
+      font-size: 28px;
+    }
+    .prospectCardDetail{
+    .prospectViewTable{
+      .ant-table-cell {
+        font-size: 20px;
+      }
+    }
+  }
+  .opportunity-table{
+    .ant-table-cell{
+      font-size: 20px;
+    }
+  }
+  .interactions-table{
+    .ant-table-cell{
+      font-size: 20px;
+    }
+  }
+  .tasks-table{
+    .ant-table-cell{
+      font-size: 20px;
+    }
+  }
+}

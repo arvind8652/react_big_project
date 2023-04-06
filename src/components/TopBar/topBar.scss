@@ -1,0 +1,233 @@
+.topMenuBar {
+  position: absolute;
+  top: 0;
+  // right: 56px;
+  right: 75px;
+  width: 30%;
+  justify-content: flex-end;
+  .ant-menu-title-content:focus {
+    color: white;
+  }
+}
+
+.topMenuBar1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  // width: 30%;
+  justify-content: flex-end;
+  .ant-menu-title-content:focus {
+    color: white;
+  }
+}
+
+.userPopUp {
+  top: 56px; //!important;
+  width: 400px;
+}
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  .user {
+    border-bottom: 1px solid #cbd6ff;
+    width: 100%;
+
+    .avatarContainer {
+      margin: 0 auto 0 -16px;
+      float: left;
+      .avatar {
+        margin: 15px;
+      }
+    }
+    .userInfo {
+      display: flex;
+      flex-direction: column;
+      margin: 15px 0 0 0;
+      .userName {
+        font-family: Open Sans;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        color: #222747;
+      }
+      .groupName {
+        font-family: "Open Sans";
+        font-size: 15px;
+        line-height: 25px;
+        color: #696a91;
+      }
+      .branch {
+        font-family: Open Sans;
+        font-size: 15px;
+        line-height: 25px;
+        color: #222747;
+      }
+    }
+  }
+  .userInfoItem {
+    border-bottom: 1px solid #cbd6ff;
+    width: 100%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #696a91;
+    margin: 18px 0 0 0;
+    .infoItem {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin: 8px 0;
+      font-family: Open Sans;
+      font-size: 15px;
+      line-height: 25px;
+      color: #696a91;
+    }
+  }
+  .navItems {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 18px 0 0 0;
+    color: #354081;
+    .settings {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      font-family: Open Sans;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 15px;
+      color: #354081;
+      cursor: pointer;
+      .topBarSettings {
+        margin: 10px 10px 10px 0;
+      }
+    }
+    .signOut {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      font-family: Open Sans;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 15px;
+      color: #354081;
+      cursor: pointer;
+      .topBarSignOut {
+        margin: 10px 10px 10px 0;
+      }
+    }
+  }
+}
+
+// For Quick Add
+
+.quickAddItemContainer {
+  list-style: none;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+.quickAddItem:hover {
+  background-color: #5d6dd1;
+  color: white;
+}
+
+.quickAddItem {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  // padding-left: 20px;
+  align-items: center;
+  height: 80px;
+  color: #5d6dd1;
+  font-size: 18px;
+}
+
+.quickAddItemFirstCol {
+  display: flex;
+  align-items: center;
+}
+
+.quickAddIconContainer {
+  width: 40px;
+  display: flex;
+  margin-right: 20px;
+  justify-content: center;
+}
+
+.line {
+  height: 1px;
+  background-color: #cbd6ff;
+}
+
+// quick add ends
+
+// notification start
+
+.notificationIcon {
+  background: #f0f2fb;
+  border-radius: 50%;
+  font-size: 4rem;
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5d6dd1;
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #333c75;
+}
+
+.userName {
+  width: 7em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+
+.closeIcon {
+  position: absolute;
+  right: 0.2rem;
+  bottom: 85px;
+  padding: 0.2em;
+
+  &:hover {
+    background-color: #5d6dd1;
+    color: white;
+  }
+}
+
+// notification start ends
+
+// favourite starts
+.productItem {
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  color: #48528d;
+  padding: 0;
+  margin: 0;
+}
+
+// favourite ends here

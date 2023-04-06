@@ -1,0 +1,1087 @@
+.prospect-overview-container {
+	.oppor-amount-stats-container {
+		margin: 0 36px 0 0;
+		font-family: Open Sans;
+		font-size: 20vw;
+		line-height: 27px;
+
+		.stats {
+			display: flex;
+			span {
+				color: #898ea9;
+			}
+			.opportunity-count {
+				font-weight: 600;
+				color: #32373f;
+			}
+			.target-amount {
+				font-weight: 400;
+				color: #898ea9;
+			}
+		}
+		.text {
+			font-weight: 400;
+			color: #898ea9;
+		}
+	}
+	.plot-attribute-selector {
+		display: flex;
+		margin: 0 0 24px 0;
+		.option {
+			// width: 64px;
+			font-family: Open Sans;
+			font-size: 18px;
+			line-height: 25px;
+			color: #696a91;
+			text-align: center;
+		}
+		.option.active {
+			color: #5564c1;
+		}
+		.option.active::after {
+			content: '';
+			display: block;
+			margin: 0 auto;
+			width: 50%;
+			border-bottom: 1px solid #5564c1;
+		}
+		.option.left {
+			border-right: 1px solid #696a91;
+		}
+		.option.rigth {
+			border-left: 1px solid #696a91;
+		}
+	}
+
+	.plotting-category-select {
+		.ant-select-selector {
+			font-size: 9px;
+			width: 190px;
+			height: 38px;
+			background: #f6f7fb;
+			border: 1px solid #cbd6ff;
+			box-sizing: border-box;
+			border-radius: 4px;
+			font-family: Open Sans;
+			font-size: 18px;
+			line-height: 25px;
+			color: #354081;
+		}
+	}
+	.styled-border {
+		border: 1px solid #cbd6ff;
+		border-radius: 8px;
+		box-shadow: 0px 4px 6px rgba(203, 214, 255, 0.25);
+		box-sizing: border-box;
+	}
+	.view-all-btn-clr {
+		border: 1px solid rgb(102, 116, 199);
+		border-radius: 8px;
+		font-size: 16px;
+		color: rgb(85, 100, 193);
+		height: 40px;
+		padding: 6.4px 15px;
+	}
+
+	.prospect-repo-graphs {
+		margin: 0 0 24px 0;
+		display: flex;
+		width: calc(100% - 12px);
+		justify-content: space-between;
+
+		.prospect-repo-card {
+			width: calc(100%);
+			// border: 1px solid #cbd6ff;
+
+			.ant-card-body {
+				.prospect-section {
+					display: flex;
+					margin: 10px;
+					justify-content: space-between;
+					margin-top: -10px;
+
+					.subtitle {
+						margin: 8px 0 0 35px;
+						font-family: Open Sans;
+						font-size: 14px;
+						line-height: 19px;
+						color: #898ea9;
+					}
+					.prospect-details {
+						display: flex;
+						flex-direction: column;
+						justify-content: space-evenly;
+
+						.subtitle {
+							margin: 15px 0 0 0;
+							font-family: Open Sans;
+							font-size: 14px;
+							line-height: 19px;
+							color: #898ea9;
+						}
+						.graph-converted-open {
+							display: inline-block;
+							.converted-prospect-count {
+								margin: 0 0 4px 0;
+								font-family: Montserrat;
+								font-weight: bold;
+								font-size: 24px;
+								line-height: 29px;
+								color: #5564c1;
+							}
+							.icon {
+								margin: 0 12px 0 0;
+							}
+							.open-prospect-count {
+								margin: 0 0 2px 0;
+								font-family: Montserrat;
+								font-weight: bold;
+								font-size: 24px;
+								line-height: 29px;
+								color: #5564c1;
+							}
+							.title {
+								margin: 0 0 10px 0;
+								font-family: Open Sans;
+								font-size: 18px;
+								line-height: 25px;
+								color: #898ea9;
+							}
+							.upgraded-open-graph {
+								position: relative;
+								left: -25px;
+							}
+							@media screen and (max-width: 1919px) and (min-width: 1300px) {
+								.open-prospect-count {
+									margin: 0 0 2px 0;
+									font-family: Montserrat;
+									font-weight: bold;
+									font-size: 20px;
+									line-height: 29px;
+									color: #5564c1;
+								}
+								.title {
+									margin: 0 0 10px 0;
+									font-family: Open Sans;
+									font-size: 18px;
+									line-height: 25px;
+									color: #898ea9;
+								}
+								.converted-prospect-count {
+									margin: 0 0 4px 0;
+									font-family: Montserrat;
+									font-weight: bold;
+									font-size: 20px;
+									line-height: 29px;
+									color: #5564c1;
+								}
+							}
+						}
+					}
+				}
+				.qualification-section {
+					.qualification-details {
+						display: flex;
+						flex-direction: column;
+						justify-content: space-evenly;
+						.upper-det {
+							display: flex;
+							justify-content: space-between;
+							.percent {
+								font-family: Open Sans;
+								font-style: normal;
+								font-weight: 600;
+								font-size: 24px;
+								line-height: 27px;
+								text-align: right;
+								margin-right: 35px;
+								margin-top: -20px;
+								color: #5564c1;
+							}
+						}
+						.qualified-status {
+							margin: 10px 0 0px 0;
+							font-family: Montserrat;
+							font-weight: bold;
+							font-size: 24px;
+							line-height: 29px;
+							color: #5564c1;
+						}
+
+						.title {
+							margin: 0 0 15px 0;
+							font-family: Open Sans;
+							font-size: 18px;
+							line-height: 25px;
+							color: #898ea9;
+						}
+						.graph-section {
+							position: relative;
+							left: -20px;
+							padding: 8px 0 0 0;
+						}
+						.subtitle {
+							margin: 15px 0 0 0;
+							font-family: Open Sans;
+							font-size: 14px;
+							line-height: 19px;
+							color: #898ea9;
+						}
+					}
+					@media screen and (max-width: 1919px) and (min-width: 1300px) {
+						.qualification-details {
+							display: flex;
+							flex-direction: column;
+							justify-content: space-evenly;
+							.upper-det {
+								display: flex;
+								justify-content: space-between;
+								.percent {
+									font-family: Open Sans;
+									font-style: normal;
+									font-weight: 600;
+									font-size: 20px;
+									line-height: 27px;
+									text-align: right;
+									margin-right: 30px;
+									margin-top: -15px;
+									color: #5564c1;
+								}
+							}
+							.qualified-status {
+								margin: 10px 0 0px 0;
+								font-family: Montserrat;
+								font-weight: bold;
+								font-size: 18px;
+								line-height: 29px;
+								color: #5564c1;
+								margin: unset;
+								padding: unset;
+							}
+
+							.title {
+								margin: 0 0 15px 0;
+								font-family: Open Sans;
+								font-size: 14px;
+								line-height: 25px;
+								color: #898ea9;
+							}
+							.graph-section {
+								position: relative;
+								left: -20px;
+								margin: unset;
+								padding: unset;
+								// padding: 8px 0 0 0;
+							}
+							.subtitle {
+								margin: 15px 0 0 15px !important;
+								font-family: Open Sans;
+								font-size: 14px;
+								line-height: 19px;
+								color: #898ea9;
+								margin: unset;
+								padding: unset;
+							}
+						}
+					}
+				}
+				.interest-level-details {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					.qualified-count {
+						margin: 0 0 2px 0;
+						font-family: Montserrat;
+						font-weight: bold;
+						font-size: 24px;
+						line-height: 29px;
+						color: #5564c1;
+					}
+					.title {
+						font-family: Open Sans;
+						font-size: 18px;
+						line-height: 25px;
+						color: #898ea9;
+					}
+					.weather {
+						margin: 16px 0 24px 0;
+						display: flex;
+						justify-content: space-between;
+						.hot-icon,
+						.cold-icon {
+							display: flex;
+							align-items: center;
+							.icon {
+								margin: 0 12px 0 0;
+							}
+							.hot-stats,
+							.cold-stats {
+								font-family: Open Sans;
+								text-align: left;
+								div {
+									font-weight: bold;
+									font-size: 24px;
+									line-height: 33px;
+									color: #222747;
+								}
+								span {
+									font-size: 14px;
+									line-height: 19px;
+									color: #898ea9;
+								}
+							}
+						}
+					}
+					.subtitle {
+						// margin: 24px 0 0 0;
+						margin: 14px 0 0 0;
+						font-family: Open Sans;
+						font-size: 14px;
+						line-height: 19px;
+						color: #898ea9;
+					}
+				}
+			}
+		}
+		.lead-repo-graph-card {
+			width: calc(30% - 12px);
+			.ant-card-body {
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-evenly;
+				.subtitle {
+					// margin: 15px 0 0 0;
+					font-family: Open Sans;
+					font-size: 14px;
+					line-height: 19px;
+					color: #898ea9;
+					text-align: left;
+				}
+				.lead-section {
+					display: flex;
+					flex-direction: row;
+					justify-content: space-evenly;
+					align-items: center;
+					.title {
+						margin: 0 0 10px 0;
+						font-family: Open Sans;
+						font-size: 18px;
+						line-height: 25px;
+						color: #898ea9;
+					}
+					.graph-section {
+						margin: 20px 0 28px 0;
+						position: relative;
+						left: -20px;
+					}
+					.open-lead-count {
+						margin: 0 0 2px 0;
+						font-family: Montserrat;
+						font-weight: bold;
+						font-size: 24px;
+						line-height: 29px;
+						color: #5564c1;
+					}
+					.upgraded-lead-count {
+						margin: 0 0 2px 0;
+						font-family: Montserrat;
+						font-weight: bold;
+						font-size: 24px;
+						line-height: 29px;
+						color: #5564c1;
+					}
+				}
+			}
+		}
+	}
+
+	.dn-nc-mdd-graphs {
+		margin: 0 0 24px 0;
+		width: 100%;
+		.ant-card-body {
+			padding: 40px 0;
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			.card-section {
+				display: flex;
+				align-items: center;
+				.logo {
+					margin: 0 10px 0 0;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 52px;
+					height: 52px;
+					border-radius: 50%;
+				}
+				.eaecf8 {
+					background-color: #eaecf8;
+				}
+				.e4fdff {
+					background-color: #e4fdff;
+				}
+				.ffdbdb {
+					background-color: #ffdbdb;
+				}
+				// .text-container {
+				// }
+			}
+		}
+	}
+
+	.graphs-tables-container {
+		display: flex;
+
+		.recent-prospects-tables {
+			margin: 0 0 0 0px;
+			display: flex;
+			flex-direction: column;
+			width: calc(30% - 12px);
+
+			.rp-m-table {
+				margin: 0 0 24px 0;
+				width: 100%;
+
+				.dist-card,
+				.prospects-card,
+				.leads-card {
+					.view-all-btn {
+						display: flex;
+						flex-direction: row;
+						justify-content: flex-end;
+						margin: 0;
+						font-family: Open Sans;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 18px;
+						line-height: 2px;
+						color: #5564c1;
+					}
+					.demo-graphic-header {
+						display: flex !important;
+						justify-content: space-between !important;
+					}
+					.ant-card-head {
+						.card-header {
+							display: flex;
+							justify-content: space-between;
+							align-items: center;
+						}
+					}
+					.ant-card-body {
+						.mini-table {
+							display: flex;
+							flex-direction: column;
+							font-family: Open Sans;
+							justify-content: space-evenly;
+
+							.record {
+								padding: 24px 0;
+								border-bottom: 1px solid #cbd6ff;
+								.header {
+									display: flex;
+									justify-content: space-between;
+									align-items: flex-start;
+									span {
+										width: 75%;
+										height: 33px;
+										// font-weight: 600;
+										// font-size: 24px;
+										line-height: 33px;
+										// color: #222747;
+										white-space: nowrap;
+										overflow: hidden;
+										text-overflow: ellipsis;
+									}
+									.prospect-name {
+										font-family: Open Sans;
+										font-style: normal;
+										font-weight: 600;
+										font-size: 1vw;
+										line-height: 33px;
+										color: #222747;
+										text-align: left;
+									}
+									.profile {
+										display: flex;
+										align-items: center;
+										padding: 0 10px 0 0;
+										.avatar {
+											margin: 0 8px 0 4px;
+										}
+										.prospectInitialsCircleImg {
+											width: 90px;
+											height: 90px;
+											background: #f0f2fb;
+											border-radius: 50%;
+											// padding: 10px;
+
+											display: flex;
+											justify-content: center;
+											align-items: center;
+											font-size: 1.5vw;
+											color: rgb(207, 73, 73);
+										}
+										@media screen and (max-width: 1919px) and (min-width: 1300px) {
+											.prospectInitialsCircleImg {
+												width: 75px;
+												height: 75px;
+											}
+										}
+									}
+									.more {
+										display: flex;
+										align-items: center;
+									}
+								}
+								.rest-prospects-details {
+									margin: -55px -40px 10px 100px;
+									display: block;
+									width: 60%;
+									.socialList {
+										font-size: 5px;
+										padding-right: 2px;
+										white-space: 2px;
+									}
+									@media screen and (max-width: 1919px) and (min-width: 1300px) {
+										.socialList {
+											font-size: 5px;
+											padding-right: 2px;
+											white-space: 2px;
+										}
+									}
+									.address-city {
+										color: #696a91;
+										font-family: Open Sans;
+										font-weight: 450;
+										font-size: 15px;
+										line-height: 25px;
+										padding-bottom: 10px;
+									}
+
+									.email {
+										span {
+											color: #696a91;
+											font-family: Open Sans;
+											font-weight: 450;
+											font-size: 15px;
+											line-height: 0px;
+										}
+										div {
+											color: #696a91;
+										}
+									}
+									.mobile {
+										span {
+											color: #696a91;
+											font-family: Open Sans;
+											font-weight: 450;
+											font-size: 15px;
+											line-height: 35px;
+										}
+										div {
+											color: #696a91;
+										}
+									}
+									.wealth {
+										margin: 0 0 30px 0;
+										display: flex;
+										justify-content: space-between;
+										align-items: center;
+										span {
+											font-size: 18px;
+											line-height: 1px;
+											color: #696a91;
+										}
+										.interest-level {
+											width: 92px;
+											text-align: center;
+											background: #f0f2fb;
+											border-radius: 16px;
+											font-size: 16px;
+											line-height: 24px;
+											color: #696a91;
+										}
+									}
+									.tags {
+										display: flex;
+										justify-content: space-between;
+										.interest-level .qualification-status {
+											display: flex;
+											flex-direction: column;
+											span {
+												font-weight: 600;
+												font-size: 18px;
+												line-height: 25px;
+												color: #222747;
+											}
+											div {
+												color: #696a91;
+											}
+										}
+										.profile {
+											display: flex;
+											align-items: center;
+											padding: 20px;
+											.avatar {
+												margin: 0 18px 0 8px;
+											}
+										}
+									}
+								}
+								@media screen and (max-width: 1919px) and (min-width: 1300px) {
+									.rest-prospects-details {
+										margin: 0 0 0 70px;
+										display: block;
+										width: 100%;
+									}
+								}
+							}
+							.record.first {
+								padding: 0 0 24px 0;
+							}
+							.record.last {
+								border-bottom: none;
+							}
+						}
+					}
+				}
+			}
+			.deals-table {
+				width: 100%;
+
+				.view-all-btn {
+					display: flex;
+					flex-direction: row;
+					justify-content: flex-end;
+					margin: 0;
+					font-family: Open Sans;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 18px;
+					line-height: 25px;
+					color: #5564c1;
+				}
+				.ant-card-head {
+					.card-header {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+					}
+				}
+				.ant-card-body {
+					.mini-table {
+						display: flex;
+						flex-direction: column;
+						font-family: Open Sans;
+						justify-content: space-evenly;
+
+						.record {
+							padding: 24px 0;
+							border-bottom: 1px solid #cbd6ff;
+							.header {
+								display: flex;
+								justify-content: space-between;
+								align-items: flex-start;
+								span {
+									width: 75%;
+									height: 33px;
+									font-weight: 600;
+									font-size: 24px;
+									line-height: 33px;
+									color: #222747;
+									white-space: nowrap;
+									overflow: hidden;
+									text-overflow: ellipsis;
+								}
+								.leads-name {
+									font-family: Open Sans;
+									font-style: normal;
+									font-weight: 600;
+									font-size: 0.9vw;
+									line-height: 33px;
+									color: #222747;
+									text-align: left;
+								}
+
+								.profile {
+									display: flex;
+									align-items: center;
+									padding: 0 10px 0 0;
+									.avatar {
+										margin: 0 8px 0 4px;
+									}
+									.prospectInitialsCircleImg {
+										width: 90px;
+										height: 90px;
+										background: #f0f2fb;
+										border-radius: 50%;
+										// padding: 10px;
+										display: flex;
+										justify-content: center;
+										align-items: center;
+										font-size: 1.5vw;
+										color: rgb(207, 73, 73);
+									}
+									@media screen and (max-width: 1919px) and (min-width: 1300px) {
+										.profile {
+											padding: 0 0 0 0;
+											.prospectInitialsCircleImg {
+												width: 75px;
+												height: 75px;
+											}
+										}
+									}
+								}
+								.more {
+									display: flex;
+									align-items: center;
+								}
+							}
+							.rest-leads-details {
+								margin: -45px -40px 10px 100px;
+								display: block;
+								width: 60%;
+								.socialList {
+									font-size: 5px;
+									padding-right: 2px;
+									white-space: 2px;
+								}
+								@media screen and (max-width: 1919px) and (min-width: 1300px) {
+									.socialList {
+										font-size: 5px;
+										padding-right: 2px;
+										white-space: 2px;
+						
+									}
+								}
+								.address-city {
+									color: #696a91;
+									font-family: Open Sans;
+									font-weight: 450;
+									font-size: 15px;
+									line-height: 25px;
+									padding-bottom: 10px;
+								}
+								.email {
+									span {
+										color: #696a91;
+										font-family: Open Sans;
+										font-weight: 450;
+										font-size: 15px;
+										line-height: 25px;
+									}
+									div {
+										color: #696a91;
+									}
+								}
+								.mobile {
+									span {
+										color: #696a91;
+										font-family: Open Sans;
+										font-weight: 450;
+										font-size: 15px;
+										line-height: 25px;
+									}
+									div {
+										color: #696a91;
+									}
+								}
+								.wealth {
+									margin: 0 0 30px 0;
+									display: flex;
+									justify-content: space-between;
+									align-items: center;
+									span {
+										font-size: 18px;
+										line-height: 25px;
+										color: #696a91;
+									}
+									.interest-level {
+										width: 92px;
+										text-align: center;
+										background: #f0f2fb;
+										border-radius: 16px;
+										font-size: 16px;
+										line-height: 24px;
+										color: #696a91;
+									}
+								}
+								.tags {
+									display: flex;
+									justify-content: space-between;
+									.interest-level .qualification-status {
+										display: flex;
+										flex-direction: column;
+										span {
+											font-weight: 600;
+											font-size: 18px;
+											line-height: 25px;
+											color: #222747;
+										}
+										div {
+											color: #696a91;
+										}
+									}
+								}
+							}
+							@media screen and (max-width: 1919px) and (min-width: 1300px) {
+								.rest-leads-details {
+									margin: 0 0 0 10px;
+									width: 100%;
+									display: block;
+								}
+							}
+						}
+						.record.first {
+							padding: 0 0 24px 0;
+						}
+						.record.last {
+							border-bottom: none;
+						}
+					}
+				}
+			}
+		}
+		.dist-sp-ob-aa-ct-graphs {
+			width: calc(70% - 12px);
+			margin: 0 12px 0 0;
+			.dist-sp-graphs {
+				display: flex;
+				justify-content: space-between;
+				margin: 0 0 24px 0;
+				.dist-graph {
+					width: calc(50% - 12px);
+
+					.dist-card {
+						.demo-graphic-header {
+							display: flex !important;
+							justify-content: space-between !important;
+							flex-wrap: wrap !important;
+						}
+						.ant-card-head {
+							.card-header {
+								display: flex;
+								justify-content: space-evenly;
+								align-items: center;
+							}
+						}
+						.ant-card-body {
+							padding: 0 24px 24px 24px;
+							height: 500px;
+							display: flex;
+							flex-direction: column;
+							justify-content: center;
+							// align-items: center;
+						}
+					}
+				}
+				.sp-graph {
+					width: calc(50% - 12px);
+					.ant-card-body {
+						height: 528px;
+						display: flex;
+						flex-direction: column;
+						justify-content: center;
+						padding: 0 24px 24px 24px;
+					}
+				}
+			}
+			.ob-graph {
+				margin: 0 0 24px 0;
+				width: 100%;
+				.ant-card-head {
+					.ant-card-head-title {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+					}
+				}
+			}
+			.aa-graph {
+				margin: 0 0 24px 0;
+				width: 100%;
+			}
+			.ct-graph {
+				width: 100%;
+				.ant-card-head {
+					.ant-card-head-title {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+					}
+				}
+				.ant-card-body {
+					padding: 0 24px 24px 24px;
+				}
+			}
+
+			.ant-card-body {
+				padding: 0 24px 24px 24px;
+			}
+		}
+		.recent-campaign-graph {
+			margin: 0 0 24px 0;
+			width: 100%;
+			.ant-card-head {
+				.ant-card-head-title {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+				}
+			}
+			.recent-campaign {
+				.details {
+					display: flex;
+					justify-content: space-between;
+
+					.right-con {
+						justify-content: left;
+						.start-date,
+						.start-date-text {
+							font-family: Open Sans;
+							font-style: normal;
+							font-weight: normal;
+							font-size: 14px;
+							line-height: 19px;
+							color: #898ea9;
+						}
+					}
+					.left-con {
+						justify-content: left;
+						.name {
+							font-family: Open Sans;
+							font-style: normal;
+							font-weight: bold;
+							font-size: 16px;
+							line-height: 33px;
+							color: #5564c1;
+						}
+						.type {
+							font-family: Open Sans;
+							font-style: normal;
+							font-weight: normal;
+							font-size: 18px;
+							line-height: 25px;
+							color: #898ea9;
+						}
+						.active {
+							width: 92px;
+							text-align: center;
+							background: #f0f2fb;
+							border-radius: 16px;
+							font-size: 16px;
+							line-height: 24px;
+							color: #696a91;
+						}
+					}
+					.name,
+					.type,
+					.active {
+						justify-content: flex-start;
+					}
+					.start-date,
+					.start-date-text {
+						justify-content: flex-end;
+					}
+				}
+				.value {
+					font-size: 1.6em;
+					font-weight: 450;
+					color: #222747;
+				}
+				.cost-text,
+				.expected-enquiry-text,
+				.actual-enquiry-text,
+				.effectiveness-text {
+					font-size: 1.6em;
+					font-weight: 450;
+					color: #898ea9;
+				}
+
+				@media screen and (max-width: 1919px) and (min-width: 1300px) {
+					.value {
+						font-size: 0.7em;
+						font-weight: 450;
+						color: #222747;
+					}
+					.cost-text,
+					.expected-enquiry-text,
+					.actual-enquiry-text,
+					.effectiveness-text {
+						font-size: 0.7em;
+						font-weight: 450;
+						color: #898ea9;
+					}
+				}
+				.view-all-btn {
+					display: flex;
+					flex-direction: row;
+					justify-content: flex-end;
+					margin: 0;
+					font-family: Open Sans;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 18px;
+					line-height: 25px;
+					color: #5564c1;
+				}
+			}
+		}
+	}
+	.investment-cart-panel {
+		margin: 0 0 24px 0;
+		width: 100%;
+		.ant-card-head {
+			.ant-card-head-title {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+		}
+	}
+
+	//general css
+	.row-contents {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		// align-items: center;
+		// text-align: center;
+		// padding: 1em;
+		margin: 0;
+	}
+	.active {
+		width: 92px;
+		text-align: center;
+		background: #f0f2fb;
+		border-radius: 16px;
+		font-size: 16px;
+		line-height: 24px;
+		color: #696a91;
+		height: 25px;
+	}
+	.Modal {
+		width: 550px;
+		background-color: red;
+	}
+
+	.col-contents {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		// align-items: center;
+		// text-align: center;
+		padding: 1em;
+		margin: 0;
+	}
+}
+.styled-move{
+	position: relative;
+	right: 1.5rem;
+}
+
+

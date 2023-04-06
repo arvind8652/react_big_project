@@ -1,0 +1,107 @@
+.card-external-icon {
+	background-color: #f0f2fb;
+	color: #696a91;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	aspect-ratio: 1;
+	padding: 5px;
+	border-radius: 50%;
+	margin-inline: 2px;
+	font-size: 10px;
+}
+
+.card-img-container {
+	width: 100%;
+	padding-right: 10%;
+	position: relative;
+}
+
+.card-img {
+	border-radius: 50%;
+	width: 100%;
+	margin-right: auto;
+	transition: 0.5s ease;
+	backface-visibility: hidden;
+}
+
+.card-img-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 86%;
+	aspect-ratio: 1;
+	border-radius: 50%;
+	opacity: 0;
+	transition: 0.5s ease;
+	background-color: #5d6dd1;
+}
+
+.card-img-overlay.selected {
+	opacity: 0.95;
+}
+
+.card-img-overlay .middle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.card-img-container:hover .card-img-overlay {
+	opacity: 0.95;
+}
+
+.card-badge {
+	background-color: #d9dfff;
+	padding: 0px 16px;
+	border-radius: 20px;
+}
+
+.card-end {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.vertical-flex-card {
+	background-color: white;
+	color: #5d6dd1;
+	padding: 1.5em;
+	height: 15em;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.prospect-card-flex-between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.prospect-card-content {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.prospect-card-footer {
+	margin-top: 1em;
+	margin-left: 0.5em;
+
+	div {
+		svg,
+		span {
+			margin: 0 0.2em;
+		}
+
+		svg {
+			font-size: 1.25vw;
+		}
+	}
+}

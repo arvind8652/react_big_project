@@ -1,0 +1,131 @@
+@media print {
+	body {
+		-webkit-print-color-adjust: exact;
+		print-color-adjust: exact;
+	}
+	// @page {
+	// 	size: 400mm 590mm !important;
+	// }
+}
+.styled-table {
+  border: 1px solid;
+  width: 100%;
+}
+.applyed-mrgn{
+  margin: 2rem;
+  width: 95%;
+}
+.placing-img{
+  padding: 2px;
+}
+.styled-t-d-h {
+  border: 1px solid;
+  width: 40rem;
+  text-align: left;
+  line-height: 21px;
+  font-size: 15px;
+  font-weight: 450;
+}
+.applied-wdt{
+  width: 20px;
+}
+.txt-update{
+  font-size: 12px;
+}
+.otr-spec{
+  border-bottom: 1.5px solid black;
+  padding: 30px;
+  padding-bottom: 0.1px;
+}
+.empty-space{
+  border-bottom: 1.5px solid black;
+  padding: 50px;
+  padding-bottom: 0.1px;
+}
+.wder-clm, .wder-clm-up {
+  border-bottom: 0.8px solid black;
+}
+.adjust{
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+.adjust-rt{
+  border-left:1.5px solid black ;
+  width: 100px;
+  left: 200px
+}
+.empty-space-two{
+  border-bottom: 1.5px solid black;
+  width: 40px;
+  margin-bottom: 1px;
+}
+.added-size{
+  padding-right: 80px;
+  border-bottom: 3px solid black;
+}
+.added-pot{
+  left:9rem;
+}
+.added-pot-acc, .add-spc{
+  left:300px;
+}
+.rt-spc{
+  padding-left: 200px;
+  right: 5px;
+}
+.styled-heading{
+  font-weight: 800;
+  font-size: 20px;
+  height: 10px;
+  text-align: right;
+}
+.bg-clr{
+  background-color: rgb(9, 44, 109);
+  color: white;
+  font-size: 18px;
+  
+}
+.lft-alg{
+  padding-left: 3px;
+  margin-bottom: 1px;
+}
+.rt-spc{
+  padding-left: 200px;
+}
+.adjust-text{
+  font-size: 11px;
+  font-weight: 100px;
+}
+.cntr-aln{
+  text-align: center;
+  margin-bottom: 1px;
+}
+.ft-wg{
+  font-size: 20px;
+  font-weight: 700;
+}
+.added-space{
+  padding-bottom: 30px;
+}
+.jsty-txt{
+  padding: 30px;
+  padding-top: 0px;
+}
+.jst-fnt{
+  text-align: justify;
+}
+.styled-cmp{
+  border: 3px solid black;
+  padding-left: 30px;
+}
+.styled-note{
+  color: rgb(22, 22, 205);
+  font-size: 12px;
+  position: relative;
+  left: 40rem;
+  top: 20px;
+}
+.page-break{
+  border-bottom: 0.5px solid black;
+  padding-bottom: 5rem;
+}

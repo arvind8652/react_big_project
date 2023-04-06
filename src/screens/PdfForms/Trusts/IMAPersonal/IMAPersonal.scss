@@ -1,0 +1,102 @@
+.main-data{
+    text-align: justify;
+    padding:4rem;
+    font-size: 14.6px;
+}
+.header{
+    color: '#5e5d5d';
+	font-size: '50px';
+	font-weight: '400';
+	margin: '10px';
+    justify-content: center;
+}
+.header-two{
+    color: '#5e5d5d';
+	font-size: '20px';
+	// font-weight: '400';
+    justify-content: center;
+}
+.content-padd{
+    padding :0 4rem 0 4rem;
+}
+.empty-space{
+    border-bottom: 1px solid ;
+    padding: 50px;
+    padding-bottom: 0.1px;
+    
+  }
+  .empty-space-add{
+    border-bottom: 2px solid black ;
+    // padding: 50px;
+    padding: 250px;
+    padding-bottom: 0.1px;
+  }
+  .empty-space-1{
+      border-bottom: 2px solid black;
+      padding: 0 163px 0 163px;
+  }
+  .indent{
+      text-indent: 80px;
+  }
+  .text-bold{
+      font-weight: bold;
+  }
+  .sub-text-bold{
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .text-ind{
+      text-indent: 50px ;
+      font-weight: bold;
+      text-decoration: underline;
+  }
+  
+  .opt-ind{
+      margin: 0 20px 0 20px;
+  }
+  .add-space{
+      margin-top: 2rem;
+      padding: 0 4rem 0 4rem;
+  }
+  .empty-space-two{
+    border-bottom: 1.5px solid black;
+    padding: 50px;
+    padding-bottom: 0.1px;
+    
+  }
+  .added-size{
+    padding-right: 10rem;
+    border-bottom: 3px solid black;
+    left: 400px
+    
+  }
+  .added-size-two{
+    padding-left: 10rem;
+    margin-left: 5rem;
+    border-bottom: 3px solid black; 
+  }
+ .heighlight{
+     background-color:#FFFF00 ;
+ } 
+ .anchor{
+     text-decoration: underline;
+ }
+ .bor{
+    border: 1px solid black;
+  border-collapse: collapse;
+ }
+ .bor-heading{
+     font-weight: normal;
+     padding: 10px;
+ }
+.bor-data{
+padding: 10px;
+border: 1px solid black;
+width: 200px;
+}
+.linking-data{
+    margin-bottom: 0 !important;
+}
+.top-space{
+    margin-top: 10rem;
+}

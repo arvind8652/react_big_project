@@ -1,0 +1,167 @@
+// .account-create-container {
+//     padding: 0 2.5%;
+//     width: 100%;
+//     .parent-form-container {
+//       width: 100%;
+//     }
+//   }
+  
+//   .ant-form-item-label
+//   > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::after {
+//   display: inline-block;
+//   color: #ff4d4f;
+//   margin: 0px 0px 0px 4px !important;
+//   font-size: 14px !important;
+//   font-family: SimSun, sans-serif;
+//   line-height: 1;
+//   content: "*";
+// }
+.account-create-container {
+  // padding: 0 2.5%;
+  width: 100%;
+  .parent-form-container {
+    width: 100%;
+    .ant-space-vertical {
+      width: 100%;
+    }
+    .ant-menu-item-title {
+      margin: 0 !important;
+    }
+    .ant-menu-submenu-active,
+    .ant-menu-submenu-title:hover {
+      color: white !important;
+    }
+    .ant-input:hover,
+    .ant-select:not(.ant-select-disabled):hover .ant-select-selector,
+    .ant-picker:hover,
+    .ant-picker-focused {
+      border-color: #5d6dd1 !important;
+    }
+    .ant-radio-button-wrapper:hover {
+      color: #5d6dd1 !important;
+    }
+    .ant-upload.ant-upload-drag:not(.ant-upload-disabled):hover,
+    .ant-input-affix-wrapper:hover {
+      border-color: #5d6dd1 !important;
+    }
+    .ant-menu-item-selected {
+      background-color: #5d6dd1 !important;
+    }
+    .ant-menu-submenu > .ant-menu {
+      background-color: #4754a5 !important;
+    }
+    .ant-menu-submenu-arrow {
+      color: white !important;
+    }
+    .ant-menu-submenu-open {
+      background-color: #4754a5 !important;
+    }
+    .ant-menu-inline .ant-menu-item,
+    .ant-menu-inline .ant-menu-submenu-title {
+      width: 100% !important;
+    }
+    .ant-row:last-child {
+      .ant-col {
+        .ant-form-item:last-child {
+          margin: 0;
+        }
+      }
+    }
+    .ant-form-item {
+      .ant-picker {
+        width: 100%;
+      }
+      .ant-upload {
+        p {
+          color: #696a91;
+        }
+        b {
+          color: #354081;
+        }
+      }
+    }
+    .ant-card-body {
+      .ant-col {
+        padding-right: 14px !important;
+      }
+    }
+    .ant-menu-inline,
+    .ant-menu-inline .ant-menu-item::after {
+      border: 0 none !important;
+    }
+    .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+      background-color: #354081 !important;
+      color: white !important;
+      border: none;
+    }
+    .ant-form-item-label
+      > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+      content: none !important;
+    }
+    .ant-form-item-label
+      > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::after {
+      display: inline-block;
+      color: #ff4d4f;
+      margin: 0px 0px 0px 4px !important;
+      font-size: 14px !important;
+      font-family: SimSun, sans-serif;
+      line-height: 1;
+      content: "*";
+    }
+    .ant-form-item-label > label:not(.ant-form-item-required)::before {
+      content: "" !important;
+    }
+    .ant-upload.ant-upload-drag .ant-upload {
+      padding: 25px 0;
+    }
+    input:not(.ant-select-selection-search-input),
+    textarea,
+    .ant-picker,
+    .ant-select,
+    .ant-select-selector,
+    .ant-radio-button-wrapper,
+    .ant-upload,
+    .ant-input-affix-wrapper {
+      background: #f6f7fb !important;
+      border-radius: 5px !important;
+    }
+    .ant-checkbox-checked .ant-checkbox-inner {
+      background-color: #5d6dd1 !important;
+      border-color: #5d6dd1 !important;
+    }
+    .ant-checkbox-checked .ant-checkbox:hover {
+      .ant-checkbox-inner {
+        border-color: #5d6dd1 !important;
+      }
+    }
+    .ant-checkbox-inner {
+      border-color: #cbd6ff !important;
+    }
+    .ant-checkbox:hover {
+      .ant-checkbox-inner {
+        border-color: #5d6dd1 !important;
+      }
+    }
+    .ant-form-item-label
+      > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+      display: inline-block;
+      color: #000;
+      content: "" !important;
+    }
+    .ant-form-item-label
+      > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::after {
+      display: inline-block;
+      margin-left: 4px;
+      color: #ff4d4f;
+      font-size: 18px;
+      font-family: SimSun, sans-serif;
+      line-height: 1;
+      content: "*";
+    }
+    .no-card-body {
+      .ant-card-body {
+        display: none;
+      }
+    }
+  }
+}

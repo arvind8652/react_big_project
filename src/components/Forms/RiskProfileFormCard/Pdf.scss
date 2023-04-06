@@ -1,0 +1,79 @@
+.book {
+	margin: 0;
+	padding: 0;
+	background-color: #5e5d5d;
+	font: 12pt 'Tahoma';
+	@media print {
+		body {
+			-webkit-print-color-adjust: exact;
+			print-color-adjust: exact;
+		}
+		// @page {
+		//   size: 400mm 590mm !important;
+		// }
+	}
+}
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.page {
+	// width: 22cm;
+	// min-height: 29.7cm;
+	padding: 2cm;
+	margin: 1cm auto;
+	border: 1px white solid;
+	border-radius: 1px;
+	background: white;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+.first {
+	margin: 0 0 0 21px;
+	// font-size: 28px;
+}
+.sec {
+	margin-left: 26px;
+}
+.second {
+	font-size: 15px;
+	color: #0a7fdf;
+	font-weight: 550;
+}
+.subpage {
+	padding: 1cm;
+	border: 1px black solid;
+	height: 250mm;
+	margin: 18px 25px;
+	/* outline: 2cm #FFEAEA solid; */
+}
+
+.head {
+	font-weight: bold;
+	font-size: 13px;
+	padding: 0 0 0 5px;
+}
+
+// @page {
+//   size: A4;
+//   margin: 0;
+// }
+
+@media print {
+	.page {
+		margin: 0;
+		border: initial;
+		border-radius: initial;
+		width: initial;
+		min-height: initial;
+		box-shadow: initial;
+		background: initial;
+		page-break-after: always;
+	}
+}

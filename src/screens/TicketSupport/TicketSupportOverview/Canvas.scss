@@ -1,0 +1,9 @@
+.canvas {
+	display: flex;
+	flex-direction: column;
+	.title {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"serviceTickes": [
+		{ "serviceType": "Query", "open": 21, "overDue": 121, "closed": 211 },
+		{ "serviceType": "Request", "open": 100, "overDue": 211, "closed": 121 },
+		{ "serviceType": "Complaint", "open": 50, "overDue": 200, "closed": 300 }
+	],
+	"tickesDue": {
+		"total": 511,
+		"overdue": 21,
+		"today": 18,
+		"tomorrow": 20,
+		"week": 27,
+		"month": 27
+	},
+	"ticketAssignment": [
+		{ "assignTo": "You", "count": 71 },
+		{ "assignTo": "Prodction", "count": 61 },
+		{ "assignTo": "Testing", "count": 12 },
+		{ "assignTo": "Others", "count": 122 }
+	]
+}

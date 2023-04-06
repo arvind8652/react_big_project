@@ -1,0 +1,375 @@
+.cardColumn {
+  margin: 0 1em 1em 1em !important;
+}
+
+.confirm-modal-container {
+  .ant-modal-content {
+    border-radius: 16px;
+    .ant-modal-body {
+      padding: 48px 48px 80px 48px;
+      //   height: 200px;
+      .modal-header {
+        margin: 0 0 24px 0;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        font-family: Poppins;
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #354081;
+        .header-icon {
+          margin: 0 1.5rem 0 0;
+        }
+        .failed-actions-title {
+          font-size: 1.5rem;
+        }
+        .fail-logo {
+          width: 50px;
+        }
+      }
+      .modal-body {
+        min-height: 12vw;
+        font-family: Open Sans;
+        font-size: 1.5rem;
+        line-height: 33px;
+        color: #696a91;
+        .modal-body-subtext {
+          background: #fffaee;
+          margin-top: 25px;
+          height: 100px;
+          display: flex;
+          align-items: center;
+          .subtext-icon {
+            width: 80px;
+          }
+          .modal-subtext {
+            padding: 8px;
+            font-size: 1.25rem;
+            display: flex;
+            color: #ffc122;
+            .subtext-title {
+              font-size: 1.25rem;
+              color: #ffc122;
+              font-weight: 600;
+            }
+          }
+        }
+        .title {
+          margin: 0 0 1.5rem 0;
+          font-family: Poppins;
+          font-weight: 600;
+          line-height: 45px;
+          color: #354081;
+        }
+        .assign-leads-form {
+          .field-section {
+            font-size: 1.5rem;
+            label {
+              font-size: 1.5rem;
+            }
+            .filter-dropdown {
+              width: 55%;
+            }
+          }
+          .form-footer {
+            position: absolute;
+            bottom: 40px;
+            right: 40px;
+            .text-only-btn {
+              margin: 0 10px 0 0;
+              font-family: Open Sans;
+              font-size: 1.8rem;
+              line-height: 30px;
+              text-align: center;
+              color: #354081;
+              opacity: 0.9;
+            }
+            .submit-btn {
+              width: 184px;
+              height: 56px;
+              background: #354081;
+              border-radius: 8px;
+              font-family: Open Sans;
+              font-size: 1.8rem;
+              line-height: 30px;
+              text-align: center;
+              color: #ffffff;
+              opacity: 0.9;
+            }
+            .text-only-btn-cancel {
+              margin: 0 10px 0 0;
+              font-family: Open Sans;
+              font-size: 1.8rem;
+              line-height: 30px;
+              text-align: center;
+              color: #354081;
+              opacity: 0.9;
+            }
+            .submit-btn-a {
+              width: 150px;
+              height: 48px;
+              background: #354081;
+              border-radius: 8px;
+              font-family: Open Sans;
+              font-size: 1.8rem;
+              line-height: 30px;
+              text-align: center;
+              color: #ffffff;
+              opacity: 0.9;
+            }
+            :hover {
+              opacity: 1;
+            }
+          }
+        }
+        .action-fail-screen,
+        .action-success-screen {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .success-logo,
+          .fail-logo {
+            width: 201px;
+            margin: 50px 50px 50px 20px;
+          }
+          .title {
+            font-size: 1.8rem;
+          }
+          .subtitle {
+            padding: 0 50px 0 0;
+            font-size: 1rem;
+            display: flex;
+            .view-failed-actions-screen {
+              text-decoration: underline;
+              cursor: pointer;
+              opacity: 0.8;
+            }
+            :hover {
+              opacity: 1;
+            }
+          }
+        }
+        .failed-actions-list-container {
+          font-family: Open Sans;
+          line-height: 27px;
+          color: #222747;
+          table {
+            // margin: 0 0 0 50px;
+            .failed-action-row {
+              border: none;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background: unset;
+              cursor: none;
+              td {
+                width: 250px;
+                background: unset;
+                cursor: none;
+              }
+              :hover {
+                background: unset;
+              }
+            }
+            :hover {
+              background: unset;
+            }
+          }
+
+          .record-details {
+            display: flex;
+            flex-direction: column;
+            font-size: 1rem;
+          }
+          .failure-reason {
+            text-align: center;
+            font-family: Open Sans;
+            line-height: 22px;
+            color: #bc0573;
+            font-size: 1.2rem;
+            text-overflow: ellipsis;
+          }
+        }
+        .opportunity-status-update-container {
+          .stage-status-probability-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            // margin: 0 0 5px 0;
+            .status-field {
+              .status-radio {
+                background: #f6f7fb;
+                border: 1px solid #cbd6ff;
+                box-sizing: border-box;
+                border-radius: 4px;
+                span {
+                  padding: 10px;
+                  font-family: Open Sans;
+                  font-size: 18px;
+                  text-align: center;
+                  line-height: 25px;
+                  color: #696a91;
+                }
+              }
+              .status-radio.active {
+                span {
+                  color: white;
+                }
+                background: #354081;
+                box-shadow: -2px 0px 6px rgba(53, 64, 129, 0.25);
+                border-radius: 4px;
+              }
+            }
+            .stage-probability-section {
+              display: flex;
+              justify-content: space-between;
+              .stage-field {
+                display: flex;
+                flex-direction: column;
+                .stage-select {
+                  .ant-select-selector {
+                    width: 300px;
+                    height: 38px;
+                    background: #f6f7fb;
+                    border: 1px solid #cbd6ff;
+                    box-sizing: border-box;
+                    border-radius: 4px;
+                  }
+                }
+              }
+              .probability-field {
+                margin: 0 0 0 10px;
+                .probability-input {
+                  position: relative;
+                  bottom: 4px;
+                  width: 80px;
+                  height: 38px;
+                  background: #f6f7fb;
+                  border: 1px solid #cbd6ff;
+                  box-sizing: border-box;
+                  border-radius: 4px;
+                  color: #000000;
+                }
+              }
+            }
+          }
+          .ca-cd-reason-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .ca-field {
+              .closure-amount-input {
+                .ant-input {
+                  width: 280px;
+                  height: 38px;
+                  background: #f6f7fb;
+                  border: 1px solid #cbd6ff;
+                  box-sizing: border-box;
+                  border-radius: 4px;
+                }
+                .preferred-currency-input {
+                  width: 120px;
+                  height: 38px;
+                  background: #f6f7fb;
+                  border: 1px solid #cbd6ff;
+                  box-sizing: border-box;
+                  border-radius: 4px;
+                }
+              }
+            }
+            .cd-field {
+              .closure-date-input {
+                width: 400px;
+                height: 38px;
+                background: #f6f7fb;
+                border: 1px solid #cbd6ff;
+                box-sizing: border-box;
+                border-radius: 4px;
+              }
+            }
+            .close-reason-field {
+              .close-reason-select {
+                .ant-select-selector {
+                  width: 400px;
+                  height: 38px;
+                  background: #f6f7fb;
+                  border: 1px solid #cbd6ff;
+                  box-sizing: border-box;
+                  border-radius: 4px;
+                }
+              }
+            }
+          }
+          .remark-section {
+            .remark-field {
+              margin: 0 0 20px 0;
+              background: #f6f7fb;
+              border: 1px solid #cbd6ff;
+              box-sizing: border-box;
+              border-radius: 4px;
+            }
+          }
+        }
+      }
+      .modal-footer {
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+        .text-only-btn {
+          margin: 0 10px 0 0;
+          font-family: Open Sans;
+          font-size: 2rem;
+          line-height: 30px;
+          text-align: center;
+          color: #354081;
+          opacity: 0.9;
+        }
+        .submit-btn {
+          width: 90px;
+          height: 24px;
+          background: #354081;
+          border-radius: 8px;
+          font-family: Open Sans;
+          font-size: 1rem;
+          line-height: 15px;
+          text-align: center;
+          color: #ffffff;
+          opacity: 0.9;
+        }
+        :hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.btn.submit {
+  font-weight: bold;
+  font-size: 1rem !important;
+  background: #354081;
+  border: 1px solid #354081;
+  border-radius: 8px;
+  margin-top: 5px;
+  //width: 100%;
+}
+
+.btn.submit[disabled] {
+  background-color: lightgray !important;
+  border: 1px solid darkgray !important;
+  color: darkgray;
+}
+
+.securityTitle{
+  font-weight: bold;
+  width: 12em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  &:hover{
+    overflow: visible;
+    white-space: inherit;
+  }
+
+}
+

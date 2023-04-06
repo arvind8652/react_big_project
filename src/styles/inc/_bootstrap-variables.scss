@@ -1,0 +1,33 @@
+$bootstrap-sass-asset-helper: false !default;
+//
+// Variables
+// --------------------------------------------------
+
+//** Disabled cursor for form controls and buttons.
+$cursor-disabled: not-allowed !default;
+
+// Small screen / tablet
+$screen-xs: 360px !default;
+$screen-sm-min: $screen-xs !default;
+
+// Small screen / tablet
+$screen-sm: 769px !default;
+$screen-sm-min: $screen-sm !default;
+// Medium screen / desktop
+$screen-md: 992px !default;
+
+// Large screen / wide desktop
+$screen-lg: 1200px !default;
+$screen-xl: 1400px !default;
+// So media queries don't overlap when required, provide a maximum
+
+$screen-xs-max: ($screen-xs) !default; // 360px - mobile & tablets
+$screen-mob-max: ($screen-sm - 1) !default; // 768px - mobile & tablets
+$screen-desk-min: ($screen-sm) !default; // 769px - desktop
+$screen-desk-max: ($screen-md - 1) !default; // 991px - desktop
+$screen-md-min: ($screen-md) !default; // 992px - desktop and md screens
+$screen-md-max: ($screen-lg - 1) !default; // 1199px - desktop and md screens
+$screen-lg-min: ($screen-lg) !default; // 1200px - lg screens
+
+$mobile: "@media  screen and (max-width: " $screen-mob-max ")"; // use #{$mobile}
+$desktop: "@media  screen and (min-width: " $screen-desk-min ")"; // use #{$desktop}

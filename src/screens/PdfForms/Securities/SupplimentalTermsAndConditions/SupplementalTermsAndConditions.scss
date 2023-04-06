@@ -1,0 +1,39 @@
+@media print {
+	// @page {
+	// 	size: 380mm 550mm;
+	// }
+}
+.space {
+	padding-top: 15px;
+}
+.border-top {
+	border: 2px solid black;
+	margin: 50px 50px -30px 50px;
+}
+.text-h1 {
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	align-items: center;
+	width: 100%;
+	text-align: justify;
+}
+
+.text-h2 {
+	font-size: 17px;
+	font-weight: 400;
+	color: black;
+	margin-left: 30px;
+	width: 100%;
+}
+.text-h3 {
+	color: #0096ff;
+	font-weight: 400;
+	font-size: 22px;
+}
+.olpaddingTerms {
+	padding: 0px 30px 0px 30px;
+}
+.signature {
+	border: 1px solid black;
+}
